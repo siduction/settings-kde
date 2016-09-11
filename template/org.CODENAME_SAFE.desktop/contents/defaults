@@ -8,16 +8,16 @@ ColorScheme=Breeze
 Theme=breeze
 
 [plasmarc][Theme]
-name=default
+name==org.@CODENAME_SAFE@.desktop
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.siduction.desktop
+LayoutName=org.@CODENAME_SAFE@.desktop
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.siduction.desktop
+LayoutName=org.@CODENAME_SAFE@.desktop
 
 [kwinrc][LockScreen]
-LayoutName=org.siduction.desktop
+LayoutName=org.@CODENAME_SAFE@.desktop

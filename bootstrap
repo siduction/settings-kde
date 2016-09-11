@@ -64,12 +64,32 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 ## templating
 
 [ -d ./etc ] && rm -rf ./etc
-[ -d ./usr ] && rm -rf ./usr
 cp -r ./template/etc .
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+    ./template/etc/xdg/kdeglobals
+    > ./etc/xdg/kdeglobals
+
+
 cp -r ./template/kde-cheatcodes .
 cp -r ./template/kde-settings.js .
 cp -r ./template/live .
+
+
+## hacking the look-and-feel
 cp -r ./template/org.CODENAME_SAFE.desktop ./org.${CODENAME_SAFE}.desktop
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+    ./template/org.CODENAME_SAFE.desktop/contents/defaults
+    > ./org.${CODENAME_SAFE}.desktop/contents/defaults
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+    ./template/org.CODENAME_SAFE.desktop/metadata.desktop
+    > ./org.${CODENAME_SAFE}.desktop/metadata.desktop
+
 
 
 #sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
