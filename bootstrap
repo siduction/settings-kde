@@ -65,17 +65,12 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 
 [ -d ./etc ] && rm -rf ./etc
 [ -d ./usr ] && rm -rf ./usr
-cp -r ./template/* .
+cp -r ./template/etc .
+cp -r ./template/kde-cheatcodes .
+cp -r ./template/kde-settings.js .
+cp -r ./template/live .
+cp -r ./template/org.CODENAME_SAFE.desktop ./org.${CODENAME_SAFE}.desktop
 
-sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./template/etc/kde4rc \
-    > ./etc/kde4rc
-
-sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./template/etc/kde5rc \
-    > ./etc/kde5rc
 
 #sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 #    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
