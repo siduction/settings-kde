@@ -77,20 +77,20 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ./template/etc/kde5rc \
     > ./etc/kde5rc
 
-sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./template/usr/share/apps/desktoptheme/oxygen/metadata.desktop \
-    > ./usr/share/apps/desktoptheme/oxygen/metadata.desktop
+#sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+#    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+#    ./template/usr/share/apps/desktoptheme/oxygen/metadata.desktop \
+#    > ./usr/share/apps/desktoptheme/oxygen/metadata.desktop
 
-sed -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    ./template/usr/share/config/kdeglobals \
-    > ./usr/share/config/kdeglobals
+#sed -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+#    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+#    ./template/usr/share/config/kdeglobals \
+#    > ./usr/share/config/kdeglobals
 
-sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
-    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
-    template/usr/share/config/ksplashrc \
-    > ./usr/share/config/ksplashrc
+#sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+#    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+#    template/usr/share/config/ksplashrc \
+#    > ./usr/share/config/ksplashrc
 
 
 grub_template kde
