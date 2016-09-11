@@ -74,6 +74,12 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ./template/etc/xdg/kdeglobals \
     > ./etc/xdg/kdeglobals
 
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+    ./template/etc/xdg/ksplashrc \
+    > etc/xdg/ksplashrc
+
+
 
 cp -r ./template/kde-cheatcodes .
 cp -r ./template/kde-settings.js .
