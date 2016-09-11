@@ -1,4 +1,4 @@
+*.js                 usr/share/@CODENAME_SAFE@-kde-settings
 etc                  usr/share/@CODENAME_SAFE@-kde-settings/
-usr/share            usr/share/@CODENAME_SAFE@-kde-settings/
-*.js                   usr/share/@CODENAME_SAFE@-kde-settings/
-usr/share/plasma/    usr/share/
+theme/* '            usr/share/@CODENAME_SAFE@-kde-settings/share/
+org.                 usr/share/plasma/look-and-feel
