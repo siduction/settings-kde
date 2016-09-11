@@ -1,4 +1,5 @@
-etc                  usr/share/paintitblack-kde-settings/
-usr/share            usr/share/paintitblack-kde-settings/
 *.js                   usr/share/paintitblack-kde-settings/
-usr/share/plasma/    usr/share/
+etc                    usr/share/paintitblack-kde-settings/
+usr/share/plasma       usr/share/
+usr/share/theme/*      usr/share/paintitblack-kde-settings/
+
