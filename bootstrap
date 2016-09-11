@@ -63,7 +63,10 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 
 ## templating
 
-[ -d ./etc ] && rm -rf ./etc
+[ -d "./etc" ] && rm -rf ./etc
+[ -d "./live" ] && rm -rf ./live
+[ -d "./org.${CODENAME_SAFE}.desktop" ] && rm -rf org.${CODENAME_SAFE}.desktop
+
 cp -r ./template/etc .
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
