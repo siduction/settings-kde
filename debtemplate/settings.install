@@ -1,4 +1,4 @@
-*.js                 usr/share/@CODENAME_SAFE@-kde-settings
-etc                  usr/share/@CODENAME_SAFE@-kde-settings/
-theme/* '            usr/share/@CODENAME_SAFE@-kde-settings/share/
-org.                 usr/share/plasma/look-and-feel
+*.js                    usr/share/@CODENAME_SAFE@-kde-settings
+etc                     usr/share/@CODENAME_SAFE@-kde-settings/
+#theme/* '              usr/share/@CODENAME_SAFE@-kde-settings/share/
+org.siduction.desktop   usr/share/plasma/look-and-feel
