@@ -68,7 +68,7 @@ cp -r ./template/etc .
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
-    ./template/etc/xdg/kdeglobals
+    ./template/etc/xdg/kdeglobals \
     > ./etc/xdg/kdeglobals
 
 
@@ -82,12 +82,12 @@ cp -r ./template/org.CODENAME_SAFE.desktop ./org.${CODENAME_SAFE}.desktop
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
-    ./template/org.CODENAME_SAFE.desktop/contents/defaults
+    ./template/org.CODENAME_SAFE.desktop/contents/defaults \
     > ./org.${CODENAME_SAFE}.desktop/contents/defaults
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
-    ./template/org.CODENAME_SAFE.desktop/metadata.desktop
+    ./template/org.CODENAME_SAFE.desktop/metadata.desktop \
     > ./org.${CODENAME_SAFE}.desktop/metadata.desktop
 
 
