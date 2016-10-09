@@ -1,0 +1,33 @@
+[General]
+BrowserApplication=firefox
+ColorScheme=Breeze
+Name=Breeze
+XftAntialias=true
+XftHintStyle=hintmedium
+XftSubPixel=none
+shadeSortColumn=true
+widgetStyle=Breeze
+
+[Icons]
+Theme=breeze
+
+[KDE]
+ChangeCursor=true
+ColorScheme=Breeze
+LookAndFeelPackage=org.@CODENAME_SAFE@.desktop
+contrast=4
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Breadcrumb Navigation=true
+
+[Paths]
+Trash=$HOME/Desktop/Trash/
+
+[WM]
+activeBackground=71,80,87
+activeBlend=255,255,255
+activeForeground=239,240,241
+inactiveBackground=239,240,241
+inactiveBlend=75,71,67
+inactiveForeground=189,195,199

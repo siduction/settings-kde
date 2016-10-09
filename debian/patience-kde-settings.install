@@ -1,5 +1,4 @@
-kde/etc/*                  usr/share/patience-kde-settings/etc
-kde/share                  usr/share/patience-kde-settings/
-kde/*.js                   usr/share/patience-kde-settings/
-
-kde/org.siduction.desktop  usr/share/plasma/look-and-feel
+*.js                          usr/share/patience-kde-settings
+etc                           usr/share/patience-kde-settings/
+#theme/* '                    usr/share/patience-kde-settings/share/
+org.patience.desktop   usr/share/plasma/look-and-feel

@@ -1,0 +1,123 @@
+#!/bin/bash
+set -e
+
+
+source ./functions.sh
+
+source_version_info
+debian_changelog
+cleanup_old_builds
+debian_cleanup
+debian_foo_basics
+basic_control kde
+debian_rules
+
+# debian
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@FLAVOUR\@/${FLAVOUR}/g" \
+    ./debtemplate/copyright \
+    > ./debian/copyright
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ./debtemplate/get-template \
+    > ./debian/get-template
+chmod 755 ./debian/get-template
+
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ./debtemplate/settings.install \
+    > ./debian/${CODENAME_SAFE}-kde-settings.install
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ./debtemplate/settings.postinst \
+    > ./debian/${CODENAME_SAFE}-kde-settings.postinst
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ./debtemplate/livesettings.install \
+    > ./debian/${CODENAME_SAFE}-kde-livesettings.install
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ./debtemplate/livesettings.lintian-overrides \
+    > ./debian/${CODENAME_SAFE}-kde-livesettings.lintian-overrides
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ./debtemplate/livesettings.postinst \
+    > ./debian/${CODENAME_SAFE}-kde-livesettings.postinst
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ./debtemplate/livesettings.preinst \
+    > ./debian/${CODENAME_SAFE}-kde-livesettings.preinst
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+    ./debtemplate/livesettings.service \
+    > ./debian/${CODENAME_SAFE}-kde-livesettings.service
+
+## templating
+
+[ -d "./etc" ] && rm -rf ./etc
+[ -d "./live" ] && rm -rf ./live
+[ -d "./org.${CODENAME_SAFE}.desktop" ] && rm -rf org.${CODENAME_SAFE}.desktop
+
+cp -r ./template/etc .
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+    ./template/etc/xdg/kdeglobals \
+    > ./etc/xdg/kdeglobals
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+    ./template/etc/xdg/ksplashrc \
+    > etc/xdg/ksplashrc
+
+
+
+cp -r ./template/kde-cheatcodes .
+cp -r ./template/kde-settings.js .
+cp -r ./template/live .
+
+
+## hacking the look-and-feel
+cp -r ./template/org.CODENAME_SAFE.desktop ./org.${CODENAME_SAFE}.desktop
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+    ./template/org.CODENAME_SAFE.desktop/contents/defaults \
+    > ./org.${CODENAME_SAFE}.desktop/contents/defaults
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+    ./template/org.CODENAME_SAFE.desktop/metadata.desktop \
+    > ./org.${CODENAME_SAFE}.desktop/metadata.desktop
+
+
+
+#sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+#    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+#    ./template/usr/share/apps/desktoptheme/oxygen/metadata.desktop \
+#    > ./usr/share/apps/desktoptheme/oxygen/metadata.desktop
+
+#sed -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+#    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+#    ./template/usr/share/config/kdeglobals \
+#    > ./usr/share/config/kdeglobals
+
+#sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+#    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
+#    template/usr/share/config/ksplashrc \
+#    > ./usr/share/config/ksplashrc
+
+
+grub_template kde
+
+
+exit 0
