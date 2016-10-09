@@ -13,7 +13,6 @@ case "$1" in
         cp -af /usr/share/@CODENAME_SAFE@-kde-settings/etc/gtk-2.0          /etc
         ## kde ##
         cp -af /usr/share/@CODENAME_SAFE@-kde-settings/etc/kde-user-profile /etc
-        cp -af /usr/share/@CODENAME_SAFE@-kde-settings/etc/kde4rc           /etc
         ## policyḱit-1 ##
         cp -af /usr/share/@CODENAME_SAFE@-kde-settings/etc/polkit-1         /etc
         ## skel ##
