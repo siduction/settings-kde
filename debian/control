@@ -1,4 +1,4 @@
-Source: whiteroom-kde-settings
+Source: patience-kde-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -12,10 +12,10 @@ Homepage: http://bugs.siduction.org/projects/siduction-settings
 Vcs-Git: git://git.siduction.org/code/siduction-settings.git
 Vcs-Browser: http://git.siduction.org/?p=code/siduction-settings.git;a=summary
 
-Package: whiteroom-kde-settings
+Package: patience-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
-         whiteroom-common-settings
+         patience-common-settings
 Recommends: xdg-browser-launcher
 Description: KDE settings in installed mode
  Provides default settings for appearance and applications of the K Desktop
@@ -25,19 +25,19 @@ Description: KDE settings in installed mode
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: whiteroom-kde-livesettings
+Package: patience-kde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
          sidu-installer (>= 2014.01.10),
          siduction-icons,
-         whiteroom-kde-artwork,
-         whiteroom-kde-settings,
-         whiteroom-common-livesettings,
-         whiteroom-sddm-livesettings
-         | whiteroom-ligthdm-gtk-livesettings
-         | whiteroom-gdm3-livesettings
+         patience-kde-artwork,
+         patience-kde-settings,
+         patience-common-livesettings,
+         patience-sddm-livesettings
+         | patience-ligthdm-gtk-livesettings
+         | patience-gdm3-livesettings
 Description: KDE settings in live mode
  Provides default settings for appearance and applications of the K Desktop
  Environment in live mode.
