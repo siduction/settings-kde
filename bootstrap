@@ -116,6 +116,9 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 #    template/usr/share/config/ksplashrc \
 #    > ./usr/share/config/ksplashrc
 
+# hack look-and-feel background
+cp artwork/background.png \
+   org.${CODENAME_SAFE}.desktop/contents/components/artwork/
 
 grub_template kde
 
