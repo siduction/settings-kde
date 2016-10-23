@@ -1,3 +1,14 @@
+paintitblack-kde-settings (2016.10.23.2) unstable; urgency=medium
+
+  * etc/gtk-2.0/gtkrc changed for breeze
+  * gelöscht:       etc/kde4rc
+  * gelöscht:       etc/kde5rc
+  * gelöscht:       etc/kdeglobals_sss
+  * neue Datei:     etc/xdg/gtk-3.0/settings.ini
+  * neue Datei:     etc/xdg/kcminputrc
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 23 Oct 2016 03:04:04 +0200
+
 paintitblack-kde-settings (2016.10.23) unstable; urgency=medium
 
   * moved and improved some files
