@@ -1,3 +1,9 @@
+paintitblack-kde-settings (2016.10.23.3) unstable; urgency=medium
+
+  * kdeglobals only in xdg
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 23 Oct 2016 17:52:11 +0200
+
 paintitblack-kde-settings (2016.10.23.2) unstable; urgency=medium
 
   * etc/gtk-2.0/gtkrc changed for breeze
