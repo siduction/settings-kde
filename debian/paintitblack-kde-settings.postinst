@@ -20,9 +20,6 @@ case "$1" in
         cp -af /usr/share/paintitblack-kde-settings/etc/skel/config      /etc/skel/.config
         cp -af /usr/share/paintitblack-kde-settings/etc/skel/gitconfig   /etc/skel/.gitconfig
         cp -af /usr/share/paintitblack-kde-settings/etc/skel/gitignore   /etc/skel/.gitignore
-        cp -af /usr/share/paintitblack-kde-settings/etc/skel/local       /etc/skel/.local
-        ## xdg ##
-        cp -af /usr/share/paintitblack-kde-settings/etc/xdg              /etc
         ## settings ##
         dconf update
     ;;

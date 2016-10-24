@@ -1,4 +1,9 @@
+etc/kde5rc
+etc/xdg/kcminputrc  
+etc/xdg/ksplashrc  
+etc/xdg/kwinrc
+etc/xdg/plasmarc
+
 *.js                          usr/share/paintitblack-kde-settings
 etc                           usr/share/paintitblack-kde-settings/
-#theme/* '                    usr/share/paintitblack-kde-settings/share/
 org.paintitblack.desktop   usr/share/plasma/look-and-feel
