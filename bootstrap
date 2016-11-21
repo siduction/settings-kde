@@ -97,6 +97,12 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@CODENAME\@/${CODENAME}/g" \
     -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
+    ./template/org.CODENAME_SAFE.desktop/metadata.desktop \
+    > ./org.${CODENAME_SAFE}.desktop/metadata.desktop
+
+sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
+    -e "s/\@CODENAME\@/${CODENAME}/g" \
+    -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
     ./template/org.CODENAME_SAFE.desktop/contents/loginmanager/metadata.desktop \
     > ./org.${CODENAME_SAFE}.desktop/contents/loginmanager/metadata.desktop
 
