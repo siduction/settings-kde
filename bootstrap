@@ -100,13 +100,12 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     ./template/org.CODENAME_SAFE.desktop/contents/loginmanager/metadata.desktop \
     > ./org.${CODENAME_SAFE}.desktop/contents/loginmanager/metadata.desktop
 
-template/etc/skel/config/plasma-org.kde.plasma.desktop-appletsrc
-
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@CODENAME\@/${CODENAME}/g" \
     -e "s/\@DESCRIPTION\@/${DESCRIPTION}/g" \
     ./template/etc/skel/config/plasma-org.kde.plasma.desktop-appletsrc \
     > ./etc/skel/config/plasma-org.kde.plasma.desktop-appletsrc
+
 
 #sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 #    -e "s/\@DISPLAY\@/${DISPLAY}/g" \
