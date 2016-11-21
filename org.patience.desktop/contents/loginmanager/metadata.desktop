@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=Paintitblack
-Description=Siduction Paintitblack Theme
+Name=Patience
+Description=Siduction Patience Theme
 Author=Hendrik Lehmbruch
 Copyright=2015-2016, Hendrik Lehmbruch
 License=CC-BY-SA
@@ -12,5 +12,5 @@ MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
 Email=hl@siduction.org
-Theme-Id=paintitblack
+Theme-Id=patience
 Theme-API=2.0
