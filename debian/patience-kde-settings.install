@@ -1,4 +1,4 @@
-*.js                   usr/share/patience-kde-settings
-etc                    usr/share/patience-kde-settings/
-#theme/* '             usr/share/patience-kde-settings/share/
+*.js                          usr/share/patience-kde-settings
+etc                           usr/share/patience-kde-settings/
+#theme/* '                    usr/share/patience-kde-settings/share/
 org.patience.desktop   usr/share/plasma/look-and-feel
