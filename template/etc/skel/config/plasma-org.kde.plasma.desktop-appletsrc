@@ -181,6 +181,6 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][29][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/paintitblack/contents/images/1280x1024.jpg
+Image=file:///usr/share/wallpapers/@CODENAME_SAFE@/contents/images/1280x1024.jpg
 height=1024
 width=1280
