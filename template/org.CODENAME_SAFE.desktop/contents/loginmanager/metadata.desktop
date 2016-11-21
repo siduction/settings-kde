@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=@CODENAME@
-Description=Siduction @CODENAME@ Theme
+Name=@DESCRIPTION@
+Description=Siduction @DESCRIPTION@ Theme
 Author=Hendrik Lehmbruch
 Copyright=2015-2016, Hendrik Lehmbruch
 License=CC-BY-SA
