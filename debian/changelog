@@ -1,3 +1,15 @@
+patience-kde-settings (2016.1.0~alpha-6) unstable; urgency=medium
+
+  * fix wrong decorations 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 00:39:10 +0100
+
+patience-kde-settings (2016.1.0~alpha-5) unstable; urgency=medium
+
+  * fix the last crappy templatefiles
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 00:03:18 +0100
+
 patience-kde-settings (2016.1.0~alpha-3) unstable; urgency=medium
 
   * background path changed
