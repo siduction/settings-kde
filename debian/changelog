@@ -1,3 +1,11 @@
+patience-kde-settings (2016.1.0~alpha-10) unstable; urgency=medium
+
+  * added cookie-settings
+  * added minimal browser identification
+  * don't ignore ~/.local in default git settings 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 19:16:52 +0100
+
 patience-kde-settings (2016.1.0~alpha-9) unstable; urgency=medium
 
   * kwallet configuration added
