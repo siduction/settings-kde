@@ -1,3 +1,9 @@
+patience-kde-settings (2016.1.0~alpha-11) unstable; urgency=medium
+
+  * add Siduction.colorscheme, Siduction.profile and konsolerc 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 22:44:08 +0100
+
 patience-kde-settings (2016.1.0~alpha-10) unstable; urgency=medium
 
   * added cookie-settings

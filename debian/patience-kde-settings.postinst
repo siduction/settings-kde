@@ -21,6 +21,8 @@ case "$1" in
         cp -af /usr/share/patience-kde-settings/etc/skel/gitconfig   /etc/skel/.gitconfig
         cp -af /usr/share/patience-kde-settings/etc/skel/gitignore   /etc/skel/.gitignore
         cp -af /usr/share/patience-kde-settings/etc/skel/local       /etc/skel/.local
+        ## usr ##
+        cp -af /usr/share/patience-kde-settings/usr/*                /usr
         ## xdg ##
         cp -af /usr/share/patience-kde-settings/etc/xdg              /etc
         ## settings ##
