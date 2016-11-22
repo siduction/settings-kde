@@ -14,6 +14,12 @@ widgetStyle=Breeze
 Theme=breeze
 
 [KDE]
+ColorScheme=Breeze
+DoubleClickInterval=400
+SingleClick=false
+StartDragDist=4
+StartDragTime=500
+WheelScrollLines=3
 ChangeCursor=true
 LookAndFeelPackage=org.patience.desktop
 contrast=4

@@ -1,3 +1,10 @@
+patience-kde-settings (2016.1.0~alpha-9) unstable; urgency=medium
+
+  * kwallet configuration added
+  * mouse and keyboard configurations added
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 18:31:27 +0100
+
 patience-kde-settings (2016.1.0~alpha-8) unstable; urgency=medium
 
   * fixed font settings - fixed font should be 'Hack'
