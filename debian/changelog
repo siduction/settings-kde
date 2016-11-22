@@ -1,3 +1,9 @@
+patience-kde-settings (2016.1.0~alpha-8) unstable; urgency=medium
+
+  * fixed font settings - fixed font should be 'Hack'
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 01:50:37 +0100
+
 patience-kde-settings (2016.1.0~alpha-7) unstable; urgency=medium
 
   * set cursor theme to breeze 
