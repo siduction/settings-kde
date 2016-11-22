@@ -1,3 +1,9 @@
+patience-kde-settings (2016.1.0~alpha-12) unstable; urgency=medium
+
+  * Fixed typo in konsolerc
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 23:32:25 +0100
+
 patience-kde-settings (2016.1.0~alpha-11) unstable; urgency=medium
 
   * add Siduction.colorscheme, Siduction.profile and konsolerc 
