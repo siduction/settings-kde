@@ -1,3 +1,9 @@
+patience-kde-settings (2016.1.0~alpha-7) unstable; urgency=medium
+
+  * set cursor theme to breeze 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 01:06:54 +0100
+
 patience-kde-settings (2016.1.0~alpha-6) unstable; urgency=medium
 
   * fix wrong decorations 
