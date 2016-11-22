@@ -83,8 +83,11 @@ sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
 
 cp -r ./template/kde-cheatcodes .
 cp -r ./template/kde-settings.js .
-cp -r ./template/live .
 
+rm -rf ./live
+cp -r ./template/live .
+rm -rf ./usr
+cp -r ./template/usr .
 
 ## hacking the look-and-feel
 cp -r ./template/org.CODENAME_SAFE.desktop ./org.${CODENAME_SAFE}.desktop
