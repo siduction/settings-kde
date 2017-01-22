@@ -1,3 +1,10 @@
+patience-kde-settings (2016.1.0-2) unstable; urgency=medium
+
+  * fixed background.png - we are not alpha anymore
+  * show seconds  
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 22 Jan 2017 16:46:07 +0100
+
 patience-kde-settings (2016.1.0-1) unstable; urgency=medium
 
   * release is near 
