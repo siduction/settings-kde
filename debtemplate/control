@@ -31,7 +31,6 @@ Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
-         sidu-installer (>= 2014.01.10),
          siduction-icons,
          @CODENAME_SAFE@-@FLAVOUR@-artwork,
          @CODENAME_SAFE@-@FLAVOUR@-settings,
