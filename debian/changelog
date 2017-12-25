@@ -1,3 +1,11 @@
+patience-kde-settings (2017.2.0-1) unstable; urgency=medium
+
+  * Bumped VERSION - new release
+  * Bumped Standards and compat
+  * fixed some dependencies
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 25 Dec 2017 16:43:35 +0100
+
 patience-kde-settings (2017.1.0-1) unstable; urgency=medium
 
   * release branding
