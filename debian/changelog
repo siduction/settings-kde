@@ -1,8 +1,14 @@
+patience-kde-settings (2018.1.0-2) unstable; urgency=medium
+
+  * fix grub defaults
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 27 Dec 2017 01:31:21 +0100
+
 patience-kde-settings (2018.1.0-1) unstable; urgency=medium
 
   * Release 18.1 
 
- -- Alf Gaida <agaida@siduction.org>  Tue, 26 Dec 2017 22:52:39 +0100
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Dec 2017 22:55:55 +0100
 
 patience-kde-settings (2017.2.0-1) unstable; urgency=medium
 
