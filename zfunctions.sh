@@ -2,7 +2,7 @@
 
 # source version info
 function source_version_info {
-    if [ -f VERSION ]; then
+    if [ -f ./VERSION ]; then
         . ./VERSION
     else
         echo "No VERSION-File, exit!"
@@ -15,7 +15,7 @@ function source_version_info {
 function cleanup_old_builds {
     if [ -f ./debian/rules ]; then
         debclean -d
-        rm debian/rules
+        rm ./debian/rules
         echo "old builds cleaned up, run bootstrap again!"
         return 1
     fi
@@ -25,24 +25,24 @@ function cleanup_old_builds {
 # debian cleanup
 # ==============
 function debian_cleanup {
-    rm -vrf debian/siduction-live-settings-*-*
-    rm -vrf debian/siduction-settings-*-*
-    rm -vf debian/files
-    rm -vf debian/*.init
-    rm -vf debian/*.install
-    rm -vf debian/*.lintian-overrides
-    rm -vf debian/*.log
-    rm -vf debian/*.postinst
-    rm -vf debian/*.preinst
-    rm -vf debian/*.postrm
-    rm -vf debian/*.service
+    rm -vrf ./debian/siduction-live-settings-*-*
+    rm -vrf ./debian/siduction-settings-*-*
+    rm -vf ./debian/files
+    rm -vf ./debian/*.init
+    rm -vf ./debian/*.install
+    rm -vf ./debian/*.lintian-overrides
+    rm -vf ./debian/*.log
+    rm -vf ./debian/*.postinst
+    rm -vf ./debian/*.preinst
+    rm -vf ./debian/*.postrm
+    rm -vf ./debian/*.service
 }
 
 
 # debian changelog
 # ================
 function debian_changelog {
-    if [ ! -f debian/changelog ]; then
+    if [ ! -f ./debian/changelog ]; then
         sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
             -e "s/\@CODENAME\@/${CODENAME}/g" \
             -e "s/\@DISTRIBUTION\@/${DISTRIBUTION}/g" \
@@ -87,7 +87,7 @@ function debian_rules {
         -e "s/\@VERSION\@/${VERSION}/g" \
         ../template/debian/rules \
         > ./debian/rules
-    chmod 755 debian/rules
+    chmod 755 ./debian/rules
 }
 
 
