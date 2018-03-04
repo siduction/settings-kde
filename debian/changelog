@@ -1,3 +1,9 @@
+patience-kde-settings (2018.2.0-1) unstable; urgency=medium
+
+  * release 18.2
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 04 Mar 2018 02:55:03 +0100
+
 patience-kde-settings (2018.1.0-3) unstable; urgency=medium
 
   * refactored and re-bootstrapped
@@ -12,7 +18,7 @@ patience-kde-settings (2018.1.0-2) unstable; urgency=medium
 
 patience-kde-settings (2018.1.0-1) unstable; urgency=medium
 
-  * Release 18.1 
+  * Release 18.1
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 26 Dec 2017 22:55:55 +0100
 
@@ -45,13 +51,13 @@ patience-kde-settings (2016.1.0-3) unstable; urgency=medium
 patience-kde-settings (2016.1.0-2) unstable; urgency=medium
 
   * fixed background.png - we are not alpha anymore
-  * show seconds  
+  * show seconds
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 22 Jan 2017 16:46:07 +0100
 
 patience-kde-settings (2016.1.0-1) unstable; urgency=medium
 
-  * release is near 
+  * release is near
 
  -- Alf Gaida <agaida@siduction.org>  Fri, 23 Dec 2016 02:12:00 +0100
 
@@ -63,7 +69,7 @@ patience-kde-settings (2016.1.0~alpha-12) unstable; urgency=medium
 
 patience-kde-settings (2016.1.0~alpha-11) unstable; urgency=medium
 
-  * add Siduction.colorscheme, Siduction.profile and konsolerc 
+  * add Siduction.colorscheme, Siduction.profile and konsolerc
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 22:44:08 +0100
 
@@ -71,7 +77,7 @@ patience-kde-settings (2016.1.0~alpha-10) unstable; urgency=medium
 
   * added cookie-settings
   * added minimal browser identification
-  * don't ignore ~/.local in default git settings 
+  * don't ignore ~/.local in default git settings
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 19:16:52 +0100
 
@@ -90,13 +96,13 @@ patience-kde-settings (2016.1.0~alpha-8) unstable; urgency=medium
 
 patience-kde-settings (2016.1.0~alpha-7) unstable; urgency=medium
 
-  * set cursor theme to breeze 
+  * set cursor theme to breeze
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 01:06:54 +0100
 
 patience-kde-settings (2016.1.0~alpha-6) unstable; urgency=medium
 
-  * fix wrong decorations 
+  * fix wrong decorations
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 22 Nov 2016 00:39:10 +0100
 
@@ -114,7 +120,7 @@ patience-kde-settings (2016.1.0~alpha-3) unstable; urgency=medium
 
 patience-kde-settings (2016.1.0~alpha-2) unstable; urgency=medium
 
-  * first test, new background 
+  * first test, new background
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 09 Oct 2016 23:21:51 +0200
 
