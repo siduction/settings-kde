@@ -1,7 +1,7 @@
-WALLPAPER=patience
-CODENAME=Patience
-CODENAME_SAFE=patience
-VERSION=2018.1.0
+WALLPAPER=paintitblack
+CODENAME=PaintItBlack
+CODENAME_SAFE=paintitblack
+VERSION=2018.3.0
 DISTRIBUTION=unstable
 
 FLL_LIVE_USER=siducer
