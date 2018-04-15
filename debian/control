@@ -5,20 +5,22 @@ Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ferdinand Thommes <devil@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
-Build-Depends: debhelper (>= 9),
-               dh-systemd
-Standards-Version: 3.9.8
-Homepage: https://git.siduction.org/extra/settings-kde
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.4
+Vcs-Browser: https://git.siduction.org/extra/settings-kde
 Vcs-Git: https://git.siduction.org/extra/settings-kde.git
-Vcs-Browser: https://git.siduction.org/extra/settings-kde.git
+Homepage: https://git.siduction.org/extra/settings-kde
 
-# kde Settings
 Package: paintitblack-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
+         paintitblack-kde-artwork,
+         paintitblack-sddm-settings
+         | paintitblack-lightdm-gtk-settings
+         | paintitblack-gdm3-settings,
          paintitblack-common-settings
 Recommends: xdg-browser-launcher
-Description: KDE settings in installed mode
+Description: KDE settings (installed mode)
  Provides default settings for appearance and applications of the K Desktop
  Environment.
  .
@@ -31,7 +33,6 @@ Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
-         sidu-installer (>= 2014.01.10),
          siduction-icons,
          paintitblack-kde-artwork,
          paintitblack-kde-settings,
@@ -39,6 +40,6 @@ Depends: ${misc:Depends},
          paintitblack-sddm-livesettings
          | paintitblack-ligthdm-gtk-livesettings
          | paintitblack-gdm3-livesettings
-Description: KDE settings in live mode
+Description: KDE settings (live mode)
  Provides default settings for appearance and applications of the K Desktop
  Environment in live mode.

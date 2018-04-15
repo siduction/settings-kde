@@ -63,9 +63,6 @@ url=file:///usr/share/applications/firefox.desktop
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][1][Applets][23][Configuration][Appearance]
-showSeconds=true
-
 [Containments][1][Applets][23][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720

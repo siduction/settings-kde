@@ -8,10 +8,9 @@ ColorScheme=Breeze
 Theme=breeze
 
 [plasmarc][Theme]
-name=breeze-dark
+name==org.paintitblack.desktop
 
 [kcminputrc][Mouse]
-cursorSize=0
 cursorTheme=breeze_cursors
 
 [kwinrc][WindowSwitcher]

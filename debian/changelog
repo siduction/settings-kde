@@ -1,3 +1,9 @@
+paintitblack-kde-settings (2018.3.0-1) unstable; urgency=medium
+
+  * bootstrap for 2018.3.0
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 15 Apr 2018 18:56:59 +0200
+
 paintitblack-kde-settings (2016.10.24) unstable; urgency=medium
 
   * Fixed kde5rc fontwise
@@ -7,7 +13,7 @@ paintitblack-kde-settings (2016.10.24) unstable; urgency=medium
 paintitblack-kde-settings (2016.10.23.10) unstable; urgency=medium
 
   * install some files directly in /etc/xdg
-  * removed the akonadi sqlite settings 
+  * removed the akonadi sqlite settings
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 24 Oct 2016 01:26:01 +0200
 
@@ -37,7 +43,7 @@ paintitblack-kde-settings (2016.10.23.6) unstable; urgency=medium
 
 paintitblack-kde-settings (2016.10.23.5) unstable; urgency=medium
 
-  * improved kde5rc 
+  * improved kde5rc
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 23 Oct 2016 21:20:30 +0200
 
@@ -74,7 +80,7 @@ paintitblack-kde-settings (2016.10.23) unstable; urgency=medium
 paintitblack-kde-settings (2016.08.04) unstable; urgency=medium
 
   * new artwork dir - background.jpg
-  * new bootstrap, new structure 
+  * new bootstrap, new structure
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 10 Oct 2016 01:34:25 +0200
 
@@ -131,7 +137,7 @@ paintitblack-kde-settings (2016.03.25) unstable; urgency=medium
 paintitblack-kde-settings (2016.03.24) unstable; urgency=medium
 
   * kill some old kde4 code
-  * kill the weasel 
+  * kill the weasel
 
  -- Alf Gaida <agaida@siduction.org>  Fri, 25 Mar 2016 00:48:56 +0100
 
@@ -157,13 +163,13 @@ paintitblack-kde-settings (2016.01.15) unstable; urgency=medium
 
 paintitblack-kde-settings (2016.01.11.2) unstable; urgency=medium
 
-  * added ksplashrc 
+  * added ksplashrc
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 11 Jan 2016 00:41:10 +0100
 
 paintitblack-kde-settings (2016.01.11) unstable; urgency=medium
 
-  * basic look and feel package added (org.siduction.desktop) 
+  * basic look and feel package added (org.siduction.desktop)
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 11 Jan 2016 00:12:05 +0100
 
@@ -187,7 +193,7 @@ paintitblack-kde-settings (2015.12.30) unstable; urgency=medium
 
 paintitblack-kde-settings (2015.08.01) unstable; urgency=medium
 
-  * new package, reworked 
+  * new package, reworked
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 08 Aug 2015 12:23:50 +0200
 
