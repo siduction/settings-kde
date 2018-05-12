@@ -6,16 +6,18 @@ Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ferdinand Thommes <devil@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
 Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://git.siduction.org/extra/settings-kde
+Standards-Version: 4.1.4
+Vcs-Browser: https://git.siduction.org/extra/settings-kde
 Vcs-Git: https://git.siduction.org/extra/settings-kde.git
-Vcs-Browser: https://git.siduction.org/extra/settings-kde.git
+Homepage: https://git.siduction.org/extra/settings-kde
 
 Package: patience-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
          patience-kde-artwork,
-         patience-sddm-settings | patience-lightdm-gtk-settings | patience-gdm3-settings,
+         patience-sddm-settings
+	 | patience-lightdm-gtk-settings
+	 | patience-gdm3-settings,
          patience-common-settings
 Recommends: xdg-browser-launcher
 Description: KDE settings (installed mode)
