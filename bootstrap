@@ -75,17 +75,17 @@ cp -a ../template/org.CODENAME_SAFE.desktop ./org.${CODENAME_SAFE}.desktop
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@CODENAME\@/${CODENAME}/g" \
-    ../template/org.${CODENAME_SAFE}.desktop/contents/defaults \
+    ../template/org.CODENAME_SAFE.desktop/contents/defaults \
     > ./org.${CODENAME_SAFE}.desktop/contents/defaults
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@CODENAME\@/${CODENAME}/g" \
-    ../template/org.${CODENAME_SAFE}.desktop/metadata.desktop \
+    ../template/org.CODENAME_SAFE.desktop/metadata.desktop \
     > ./org.${CODENAME_SAFE}.desktop/metadata.desktop
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
     -e "s/\@CODENAME\@/${CODENAME}/g" \
-    ../template/org.${CODENAME_SAFE}.desktop/contents/loginmanager/metadata.desktop \
+    ../template/org.CODENAME_SAFE.desktop/contents/loginmanager/metadata.desktop \
     > ./org.${CODENAME_SAFE}.desktop/contents/loginmanager/metadata.desktop
 
 sed -e "s/\@CODENAME_SAFE\@/${CODENAME_SAFE}/g" \
