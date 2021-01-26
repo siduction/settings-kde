@@ -1,0 +1,4 @@
+*.js                          usr/share/c-blues-kde-settings
+etc                           usr/share/c-blues-kde-settings/
+usr                           usr/share/c-blues-kde-settings/
+org.c-blues.desktop   usr/share/plasma/look-and-feel

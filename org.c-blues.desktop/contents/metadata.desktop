@@ -1,8 +1,8 @@
 [SddmGreeterTheme]
-Name=Patience
-Description=Siduction Patience Theme
+Name=c-blues
+Description=Siduction c-blues Theme
 Author=Hendrik Lehmbruch
-Copyright=2015-2016, Hendrik Lehmbruch
+Copyright=2015-2021, Hendrik Lehmbruch
 License=CC-BY-SA
 Type=sddm-theme
 Version=0.1
@@ -11,6 +11,6 @@ Screenshot=breeze.jpg
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Email=hl@siduction.org
-Theme-Id=patience
+Email=hendrikl@siduction.org
+Theme-Id=c-blues
 Theme-API=2.0

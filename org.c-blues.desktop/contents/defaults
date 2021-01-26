@@ -8,16 +8,16 @@ ColorScheme=Breeze
 Theme=breeze
 
 [plasmarc][Theme]
-name==org.patience.desktop
+name==org.c-blues.desktop
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.patience.desktop
+LayoutName=org.c-blues.desktop
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.patience.desktop
+LayoutName=org.c-blues.desktop
 
 [kwinrc][LockScreen]
-LayoutName=org.patience.desktop
+LayoutName=org.c-blues.desktop

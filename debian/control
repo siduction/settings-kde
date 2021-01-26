@@ -1,24 +1,25 @@
-Source: patience-kde-settings
+Source: c-blues-kde-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ferdinand Thommes <devil@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
+           Hendrik Lehmbruch <hendrikl@siduction.org>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.4
 Vcs-Browser: https://git.siduction.org/extra/settings-kde
 Vcs-Git: https://git.siduction.org/extra/settings-kde.git
 Homepage: https://git.siduction.org/extra/settings-kde
 
-Package: patience-kde-settings
+Package: c-blues-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
-         patience-kde-artwork,
-         patience-sddm-settings
-	 | patience-lightdm-gtk-settings
-	 | patience-gdm3-settings,
-         patience-common-settings
+         c-blues-kde-artwork,
+         c-blues-sddm-settings
+	 | c-blues-lightdm-gtk-settings
+	 | c-blues-gdm3-settings,
+         c-blues-common-settings
 Recommends: xdg-browser-launcher
 Description: KDE settings (installed mode)
  Provides default settings for appearance and applications of the K Desktop
@@ -28,18 +29,18 @@ Description: KDE settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: patience-kde-livesettings
+Package: c-blues-kde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
          siduction-icons,
-         patience-kde-artwork,
-         patience-kde-settings,
-         patience-common-livesettings,
-         patience-sddm-livesettings
-         | patience-ligthdm-gtk-livesettings
-         | patience-gdm3-livesettings
+         c-blues-kde-artwork,
+         c-blues-kde-settings,
+         c-blues-common-livesettings,
+         c-blues-sddm-livesettings
+         | c-blues-ligthdm-gtk-livesettings
+         | c-blues-gdm3-livesettings
 Description: KDE settings (live mode)
  Provides default settings for appearance and applications of the K Desktop
  Environment in live mode.
