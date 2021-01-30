@@ -1,8 +1,12 @@
-c-blues-kde-theme (2021.1.0) UNRELEASED; urgency=medium
+c-blues-kde-settings (2021.1.0) unstable; urgency=medium
 
+  [ Hendrik Lehmbruch ]
   * preparing release 21.1 c-blues 
 
- -- Hendrik Lehmbruch <hendrikl@siduction.org>  Tue, 26 Jan 2021 20:59:14 +0100
+  [ Torsten Wohlfarth ]
+  * build and upload for release
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 30 Jan 2021 17:25:57 +0100
 
 patience-kde-settings (2018.3.0-1) unstable; urgency=medium
 
