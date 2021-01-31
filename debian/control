@@ -1,4 +1,4 @@
-Source: c-blues-kde-settings
+Source: cblues-kde-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -12,14 +12,14 @@ Vcs-Browser: https://git.siduction.org/extra/settings-kde
 Vcs-Git: https://git.siduction.org/extra/settings-kde.git
 Homepage: https://git.siduction.org/extra/settings-kde
 
-Package: c-blues-kde-settings
+Package: cblues-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
-         c-blues-kde-artwork,
-         c-blues-sddm-settings
-	 | c-blues-lightdm-gtk-settings
-	 | c-blues-gdm3-settings,
-         c-blues-common-settings
+         cblues-kde-artwork,
+         cblues-sddm-settings
+	 | cblues-lightdm-gtk-settings
+	 | cblues-gdm3-settings,
+         cblues-common-settings
 Recommends: xdg-browser-launcher
 Description: KDE settings (installed mode)
  Provides default settings for appearance and applications of the K Desktop
@@ -29,18 +29,18 @@ Description: KDE settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: c-blues-kde-livesettings
+Package: cblues-kde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
          siduction-icons,
-         c-blues-kde-artwork,
-         c-blues-kde-settings,
-         c-blues-common-livesettings,
-         c-blues-sddm-livesettings
-         | c-blues-ligthdm-gtk-livesettings
-         | c-blues-gdm3-livesettings
+         cblues-kde-artwork,
+         cblues-kde-settings,
+         cblues-common-livesettings,
+         cblues-sddm-livesettings
+         | cblues-ligthdm-gtk-livesettings
+         | cblues-gdm3-livesettings
 Description: KDE settings (live mode)
  Provides default settings for appearance and applications of the K Desktop
  Environment in live mode.
