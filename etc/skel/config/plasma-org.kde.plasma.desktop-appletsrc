@@ -178,6 +178,4 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][29][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/patience/contents/images/1280x1024.jpg
-height=1024
-width=1280
+Image=Image=/usr/share/wallpapers/cblues.jpg
