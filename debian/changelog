@@ -1,3 +1,9 @@
+cblues-kde-settings (2021.1.0-4) unstable; urgency=medium
+
+  * import commit d340270cbc by hendrikL
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 31 Jan 2021 22:01:23 +0100
+
 cblues-kde-settings (2021.1.0-3) unstable; urgency=medium
 
   * change name to cblues
