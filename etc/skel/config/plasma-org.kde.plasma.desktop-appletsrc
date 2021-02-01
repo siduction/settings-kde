@@ -23,6 +23,12 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.icon
 
+[Containments][1][Applets][18][Configuration][General]
+applicationName=Dolphin
+genericName=Dateiverwaltung
+iconName=system-file-manager
+url=file:///usr/share/applications/org.kde.dolphin.desktop
+
 [Containments][1][Applets][19][Configuration][General]
 applicationName=xdg-browser-launcher
 genericName=Generic Web Browser
@@ -46,6 +52,13 @@ url=file:///usr/share/applications/org.kde.konsole.desktop
 [Containments][1][Applets][21]
 immutability=1
 plugin=org.kde.plasma.icon
+
+[Containments][1][Applets][21][Configuration][General]
+applicationName=Firefox
+genericName=Webbrowser
+iconName=firefox
+url=file:///usr/share/applications/firefox.desktop
+
 [Containments][1][Applets][23]
 immutability=1
 plugin=org.kde.plasma.digitalclock
