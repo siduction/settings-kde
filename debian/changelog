@@ -1,3 +1,9 @@
+cblues-kde-settings (2021.1.0-9) unstable; urgency=medium
+
+  * test fixing autologin
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 01 Feb 2021 15:40:22 +0100
+
 cblues-kde-settings (2021.1.0-8) unstable; urgency=medium
 
   * import latest changes by hendrikL

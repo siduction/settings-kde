@@ -7,6 +7,10 @@ if [ -r /etc/default/distro ]; then
     . /etc/default/distro
 fi
 
+if [ -r /etc/sddm.conf ]; then
+    rm -f /etc/sddm.conf
+fi
+
 . /lib/lsb/init-functions
 . /lib/init/fll
 
