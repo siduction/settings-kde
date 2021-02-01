@@ -95,11 +95,6 @@ plugin=org.kde.plasma.kickerdash
 DialogHeight=540
 DialogWidth=720
 
-[Containments][1][Applets][30][Configuration][General]
-customButtonImage=file:///usr/share/icons/hicolor/scalable/siduction.svg
-favoriteApps=preferred://browser,Kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop
-useCustomButtonImage=true
-
 [Containments][1][Applets][30][Shortcuts]
 global=Alt+F1
 
