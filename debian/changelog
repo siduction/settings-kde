@@ -1,3 +1,9 @@
+cblues-kde-settings (2021.1.0-13) unstable; urgency=medium
+
+  * fix some live settings
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 02 Feb 2021 19:02:51 +0100
+
 cblues-kde-settings (2021.1.0-12) unstable; urgency=medium
 
   * package latest changes by hendrikL
