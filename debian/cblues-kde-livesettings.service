@@ -8,4 +8,4 @@ Type=oneshot
 ExecStart=/usr/share/cblues-kde-settings/kde-cheatcodes start
 
 [Install]
-WantedBy=multiuser.target
+WantedBy=mult-iuser.target
