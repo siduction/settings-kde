@@ -1,3 +1,9 @@
+cblues-kde-settings (2021.1.0-18) unstable; urgency=medium
+
+  * set the settings service to graphical.target
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 02 Feb 2021 21:13:38 +0100
+
 cblues-kde-settings (2021.1.0-17) unstable; urgency=medium
 
   * fix my crap in /sddm.conf.d/kde_settings.conf
