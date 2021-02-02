@@ -11,6 +11,9 @@ if [ -r /etc/sddm.conf ]; then
     rm -f /etc/sddm.conf
 fi
 
+## sddm.conf.d ##
+cp -af /usr/share/cblues-kde-settings/etc/sddm.conf.d /etc
+
 . /lib/lsb/init-functions
 . /lib/init/fll
 
