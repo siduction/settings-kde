@@ -1,3 +1,9 @@
+cblues-kde-settings (2021.1.0-21) unstable; urgency=medium
+
+  * package commit 9779fe5eb0 
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Tue, 09 Feb 2021 15:39:22 +0100
+
 cblues-kde-settings (2021.1.0-20) unstable; urgency=medium
 
   * package commit lockscreen background by hendrikL
