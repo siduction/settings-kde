@@ -8,11 +8,7 @@ case "$1" in
     ## sddm.conf ##
     rm -f /etc/sddm.conf
     ## sddm.conf.d ##
-    cp -af /usr/share/cblues-kde-settings/etc/sddm.conf.d /etc
-    ## set-timezone ##
-    ## as workaround for not shown digital-clock till I or some one other will find the reason
-    ## why using LMT as timezone, also Europe/Berlin seems to be a problem
-    timedatectl set-timezone $(timedatectl | grep Local | awk '{printf $6}')    
+    cp -af /usr/share/cblues-kde-settings/etc/sddm.conf.d /etc    
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
