@@ -25,6 +25,10 @@ case "$1" in
         cp -af /usr/share/cblues-kde-settings/usr/*                /usr
         ## xdg ##
         cp -af /usr/share/cblues-kde-settings/etc/xdg              /etc
+        ## set-timezone ##
+        ## as workaround for not shown digital-clock till I or some one other will find the reason
+        ## why using LMT as timezone, also Europe/Berlin seems to be a problem
+        timedatectl set-timezone $(timedatectl | grep Local | awk '{printf $6}')
         ## settings ##
         dconf update
     ;;
