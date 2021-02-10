@@ -1,3 +1,9 @@
+cblues-kde-settings (2021.1.0-23) unstable; urgency=medium
+
+  * new upload
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 10 Feb 2021 09:55:31 +0100
+
 cblues-kde-settings (2021.1.0-22) unstable; urgency=medium
 
   * package latest changes
