@@ -1,3 +1,9 @@
+cblues-kde-settings (2021.1.0-22) unstable; urgency=medium
+
+  * package latest changes
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 10 Feb 2021 09:35:57 +0100
+
 cblues-kde-settings (2021.1.0-21) unstable; urgency=medium
 
   * package commit 9779fe5eb0 
