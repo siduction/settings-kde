@@ -8,7 +8,7 @@ case "$1" in
     ## sddm.conf ##
     rm -f /etc/sddm.conf
     ## sddm.conf.d ##
-    cp -af /usr/share/cblues-kde-settings/etc/sddm.conf.d /etc   
+    cp -af /usr/share/farewell-kde-settings/etc/sddm.conf.d /etc   
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

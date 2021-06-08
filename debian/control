@@ -1,4 +1,4 @@
-Source: cblues-kde-settings
+Source: farewell-kde-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -12,14 +12,14 @@ Vcs-Browser: https://git.siduction.org/extra/settings-kde
 Vcs-Git: https://git.siduction.org/extra/settings-kde.git
 Homepage: https://git.siduction.org/extra/settings-kde
 
-Package: cblues-kde-settings
+Package: farewell-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
-         cblues-kde-artwork,
-         cblues-sddm-settings
-	 | cblues-lightdm-gtk-settings
-	 | cblues-gdm3-settings,
-         cblues-common-settings
+         farewell-kde-artwork,
+         farewell-sddm-settings
+	 | farewell-lightdm-gtk-settings
+	 | farewell-gdm3-settings,
+         farewell-common-settings
 Recommends: xdg-browser-launcher
 Description: KDE settings (installed mode)
  Provides default settings for appearance and applications of the K Desktop
@@ -29,18 +29,18 @@ Description: KDE settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: cblues-kde-livesettings
+Package: farewell-kde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
          siduction-icons,
-         cblues-kde-artwork,
-         cblues-kde-settings,
-         cblues-common-livesettings,
-         cblues-sddm-livesettings
-         | cblues-ligthdm-gtk-livesettings
-         | cblues-gdm3-livesettings
+         farewell-kde-artwork,
+         farewell-kde-settings,
+         farewell-common-livesettings,
+         farewell-sddm-livesettings
+         | farewell-ligthdm-gtk-livesettings
+         | farewell-gdm3-livesettings
 Description: KDE settings (live mode)
  Provides default settings for appearance and applications of the K Desktop
  Environment in live mode.

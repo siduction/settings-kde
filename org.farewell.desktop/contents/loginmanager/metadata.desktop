@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=C-Blues
-Description=Siduction C-Blues Theme
+Name=Farewell
+Description=Siduction Farewell Theme
 Author=Hendrik Lehmbruch
 Copyright=2015-2016, Hendrik Lehmbruch
 License=CC-BY-SA
@@ -12,5 +12,5 @@ MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
 Email=hl@siduction.org
-Theme-Id=cblues
+Theme-Id=farewell
 Theme-API=2.0

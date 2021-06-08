@@ -8,16 +8,16 @@ ColorScheme=Breeze
 Theme=breeze
 
 [plasmarc][Theme]
-name==org.cblues.desktop
+name==org.farewell.desktop
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.cblues.desktop
+LayoutName=org.farewell.desktop
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.cblues.desktop
+LayoutName=org.farewell.desktop
 
 [kwinrc][LockScreen]
-LayoutName=org.cblues.desktop
+LayoutName=org.farewell.desktop
