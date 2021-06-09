@@ -15,6 +15,10 @@ case "$1" in
         cp -af /usr/share/farewell-kde-settings/etc/kde-user-profile /etc
         ## policyḱit-1 ##
         cp -af /usr/share/farewell-kde-settings/etc/polkit-1         /etc
+        ## NetworkManager ##
+        cp -af /usr/share/farewell-xorg-settings/etc/NetworkManager           /etc
+        ## iwd ##
+        cp -af /usr/share/farewell-xorg-settings/etc/iwd                      /etc
         ## skel ##
         cp -af /usr/share/farewell-kde-settings/etc/skel/dmrc        /etc/skel/.dmrc
         cp -af /usr/share/farewell-kde-settings/etc/skel/config      /etc/skel/.config
