@@ -1,3 +1,9 @@
+farewell-kde-settings (2021.1.99-8) unstable; urgency=medium
+
+  * fix syntax error in cheatcodes
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sat, 12 Jun 2021 00:24:02 +0200
+
 farewell-kde-settings (2021.1.99-7) unstable; urgency=medium
 
   * test fixing the clock problem with using the cheatcodes
