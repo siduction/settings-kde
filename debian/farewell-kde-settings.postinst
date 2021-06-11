@@ -22,8 +22,6 @@ case "$1" in
         ## skel ##
         cp -af /usr/share/farewell-kde-settings/etc/skel/dmrc        /etc/skel/.dmrc
         cp -af /usr/share/farewell-kde-settings/etc/skel/config      /etc/skel/.config
-        cp -af /usr/share/farewell-kde-settings/etc/skel/gitconfig   /etc/skel/.gitconfig
-        cp -af /usr/share/farewell-kde-settings/etc/skel/gitignore   /etc/skel/.gitignore
         cp -af /usr/share/farewell-kde-settings/etc/skel/local       /etc/skel/.local
         ## usr ##
         cp -af /usr/share/farewell-kde-settings/usr/*                /usr
