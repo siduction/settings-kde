@@ -10,9 +10,9 @@ case "$1" in
     ## sddm.conf.d ##
     cp -af /usr/share/farewell-kde-settings/etc/sddm.conf.d /etc
     ## remove localtime ##
-    rm -f /etc/localtime
+    # rm -f /etc/localtime
     ## link /etc/localtime ##
-    ln -s /usr/share/zoneinfo/$(timedatectl | awk '/Time/{printf $3}') /etc/localtime
+    # ln -s /usr/share/zoneinfo/$(timedatectl | awk '/Time/{printf $3}') /etc/localtime
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
