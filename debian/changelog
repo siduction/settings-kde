@@ -1,3 +1,10 @@
+farewell-kde-settings (2021.2.0-1) unstable; urgency=medium
+
+  * set final version
+  * disabled iwd for now
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 22 Jul 2021 14:50:43 +0200
+
 farewell-kde-settings (2021.1.99-9) unstable; urgency=medium
 
   * package latest changes
