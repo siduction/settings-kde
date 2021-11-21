@@ -1,16 +1,16 @@
 [SddmGreeterTheme]
-Name=Farewell
-Description=Siduction Farewell Theme
+Name=2021-03
+Description=Siduction 2021-03 Theme
 Author=Hendrik Lehmbruch
-Copyright=2015-2016, Hendrik Lehmbruch
+Copyright=2015-2021, Hendrik Lehmbruch
 License=CC-BY-SA
 Type=sddm-theme
 Version=0.1
 Website=https://github.com/sddm/sddm
-Screenshot=breeze.jpg
+Screenshot=preview.png
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Email=hl@siduction.org
-Theme-Id=farewell
+Email=hendrikl@siduction.org
+Theme-Id=2021-03
 Theme-API=2.0

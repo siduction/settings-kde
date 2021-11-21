@@ -14,10 +14,10 @@ name==org.farewell.desktop
 cursorTheme=breeze_cursors
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.farewell.desktop
+LayoutName=org.2021-03.desktop
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.farewell.desktop
+LayoutName=org.2021-03.desktop
 
 [kwinrc][LockScreen]
-LayoutName=org.farewell.desktop
+LayoutName=org.2021-03.desktop

@@ -21,7 +21,7 @@ import QtQuick 2.2
 
 Image {
     id: root
-    source: "../components/artwork/background.png"
+    source: "../components/artwork/siduction.svg"
 
     property int stage
 
@@ -37,7 +37,7 @@ Image {
         y: root.height
         color: "#4C000000"
         Image {
-            source: "images/siduction.svgz"
+            source: "images/siduction-logo.svgz"
             anchors.centerIn: parent
             sourceSize.height: 128
             sourceSize.width: 128
@@ -96,5 +96,14 @@ Image {
             easing.type: Easing.InOutBack
             easing.overshoot: 1.0
         }
+    }
+    Image {
+        id: footerPic
+        anchors.bottom: parent.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottomMargin: 20
+        width: parent.width
+        source: "images/footer.svg"
+        fillMode: Image.PreserveAspectFit
     }
 }

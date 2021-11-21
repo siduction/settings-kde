@@ -1,4 +1,4 @@
-Source: farewell-kde-settings
+Source: 2021-03-kde-settings
 Section: misc
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -12,14 +12,14 @@ Vcs-Browser: https://git.siduction.org/extra/settings-kde
 Vcs-Git: https://git.siduction.org/extra/settings-kde.git
 Homepage: https://git.siduction.org/extra/settings-kde
 
-Package: farewell-kde-settings
+Package: 2021-03-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
-         farewell-kde-artwork,
-         farewell-sddm-settings
-	 | farewell-lightdm-gtk-settings
-	 | farewell-gdm3-settings,
-         farewell-common-settings
+         2021-03-kde-artwork,
+         2021-03-sddm-settings
+	 | 2021-03-lightdm-gtk-settings
+	 | 2021-03-gdm3-settings,
+         2021-03-common-settings
 Recommends: xdg-browser-launcher
 Description: KDE settings (installed mode)
  Provides default settings for appearance and applications of the K Desktop
@@ -29,18 +29,18 @@ Description: KDE settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: farewell-kde-livesettings
+Package: 2021-03-kde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
          siduction-icons,
-         farewell-kde-artwork,
-         farewell-kde-settings,
-         farewell-common-livesettings,
-         farewell-sddm-livesettings
-         | farewell-ligthdm-gtk-livesettings
-         | farewell-gdm3-livesettings
+         2021-03-kde-artwork,
+         2021-03-kde-settings,
+         2021-03-common-livesettings,
+         2021-03-sddm-livesettings
+         | 2021-03-ligthdm-gtk-livesettings
+         | 2021-03-gdm3-livesettings
 Description: KDE settings (live mode)
  Provides default settings for appearance and applications of the K Desktop
  Environment in live mode.

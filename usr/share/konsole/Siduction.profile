@@ -1,8 +1,8 @@
 [Appearance]
-ColorScheme=Siduction
+ColorScheme=siduction
 
 [General]
-Name=Siduction
+Name=siduction
 Parent=FALLBACK/
 
 [Interaction Options]

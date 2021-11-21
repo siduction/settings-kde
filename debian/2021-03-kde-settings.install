@@ -1,0 +1,4 @@
+*.js                          usr/share/2021-03-kde-settings
+etc                           usr/share/2021-03-kde-settings/
+usr                           usr/share/2021-03-kde-settings/
+org.2021-03.desktop   usr/share/plasma/look-and-feel

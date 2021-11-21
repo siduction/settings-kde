@@ -34,12 +34,12 @@ Image {
     property UserSelect userSelect: null
     signal clearPassword()
 
-    source: backgroundPath || "../components/artwork/background.png"
+    source: backgroundPath || "../components/artwork/siduction.svg"
     fillMode: Image.Stretch
 
     onStatusChanged: {
         if (status == Image.Error) {
-            source = "../components/artwork/background.png";
+            source = "../components/artwork/siduction.svg";
         }
     }
 
