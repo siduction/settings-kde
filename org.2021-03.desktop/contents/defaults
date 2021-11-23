@@ -8,7 +8,7 @@ ColorScheme=Breeze
 Theme=breeze
 
 [plasmarc][Theme]
-name==org.farewell.desktop
+name==org.2021-03.desktop
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
