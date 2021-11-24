@@ -195,7 +195,7 @@ PreloadWeight=42
 
 [Containments][29][Wallpaper][org.kde.image][General]
 FillMode=0
-Image=file:///usr/share/wallpapers/2021-03.svg
+Image=file:///usr/share/wallpapers/wintersky.svg
 
 [Containments][31]
 activityId=

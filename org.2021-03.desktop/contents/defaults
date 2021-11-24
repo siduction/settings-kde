@@ -8,16 +8,16 @@ ColorScheme=Breeze
 Theme=breeze
 
 [plasmarc][Theme]
-name==org.2021-03.desktop
+name==org.wintersky.desktop
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.2021-03.desktop
+LayoutName=org.wintersky.desktop
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.2021-03.desktop
+LayoutName=org.wintersky.desktop
 
 [kwinrc][LockScreen]
-LayoutName=org.2021-03.desktop
+LayoutName=org.wintersky.desktop

@@ -1,0 +1,4 @@
+*.js                          usr/share/wintersky-kde-settings
+etc                           usr/share/wintersky-kde-settings/
+usr                           usr/share/wintersky-kde-settings/
+org.wintersky.desktop   usr/share/plasma/look-and-feel

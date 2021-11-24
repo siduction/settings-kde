@@ -21,7 +21,7 @@ StartDragDist=4
 StartDragTime=500
 WheelScrollLines=3
 ChangeCursor=true
-LookAndFeelPackage=org.2021-03.desktop
+LookAndFeelPackage=org.wintersky.desktop
 contrast=4
 widgetStyle=Breeze
 

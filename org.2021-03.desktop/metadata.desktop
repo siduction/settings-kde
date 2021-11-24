@@ -2,7 +2,7 @@
 Comment=Siduction Desktop Design by Team siduction.org
 Encoding=UTF-8
 Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
-Name="2021-03"
+Name="wintersky"
 Type=Service
 
 X-KDE-ServiceTypes=Plasma/LookAndFeel
@@ -11,7 +11,7 @@ X-KDE-PluginInfo-Author=Hendrik Lehmbruch
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Email=web@siduction.org
 X-KDE-PluginInfo-License=GPLv2+
-X-KDE-PluginInfo-Name=org.2021-03.desktop
+X-KDE-PluginInfo-Name=org.wintersky.desktop
 X-KDE-PluginInfo-Version=2.0
 X-KDE-PluginInfo-Website=https://github.com/siduction
 X-Plasma-MainScript=defaults
