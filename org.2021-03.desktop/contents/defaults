@@ -2,13 +2,13 @@
 widgetStyle=breeze
 
 [kdeglobals][General]
-ColorScheme=Breeze
+ColorScheme=BreezeDark
 
 [kdeglobals][Icons]
-Theme=breeze
+Theme=breeze-dark
 
 [plasmarc][Theme]
-name==org.wintersky.desktop
+name=org.wintersky.desktop
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
