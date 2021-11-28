@@ -21,7 +21,7 @@ import QtQuick 2.2
 
 Image {
     id: root
-    source: "../components/artwork/siduction.svg"
+    source: "/usr/share/wallpapers/wintersky.svg"
 
     property int stage
 
