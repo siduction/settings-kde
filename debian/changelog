@@ -1,3 +1,9 @@
+wintersky-kde-settings (2021.2.99-5) unstable; urgency=medium
+
+  * removed /etc/default/grub.d
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 29 Nov 2021 09:33:51 +0100
+
 wintersky-kde-settings (2021.2.99-4) unstable; urgency=medium
 
   * set backgroud
