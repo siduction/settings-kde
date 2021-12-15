@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=siduction
+ColorScheme=Siduction
 
 [General]
 Name=siduction
