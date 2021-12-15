@@ -22,6 +22,7 @@ import QtQuick 2.2
 Image {
     id: root
     source: "/usr/share/wallpapers/wintersky.svg"
+    fillMode:Image.PreserveAspectCrop
 
     property int stage
 
@@ -30,19 +31,19 @@ Image {
             introAnimation.running = true
         }
     }
-    Rectangle {
-        id: topRect
-        width: parent.width
-        height: (root.height / 3) - bottomRect.height - 1
-        y: root.height
-        color: "#4C000000"
+    //Rectangle {
+        //id: topRect
+        //width: parent.width
+        //height: (root.height / 3) - bottomRect.height - 1
+        //y: root.height
+        //color: "#4C000000"
         //Image {
             //source: "images/siduction-logo.svgz"
             //anchors.centerIn: parent
             //sourceSize.height: 128
             //sourceSize.width: 128
         //}
-    }
+    //}
     Rectangle {
         id: bottomRect
         width: parent.width
@@ -101,7 +102,7 @@ Image {
         id: footerPic
         anchors.bottom: parent.bottom
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.bottomMargin: 25
+        anchors.bottomMargin: 20
         width: parent.width
         source: "images/footer.svg"
         fillMode: Image.PreserveAspectFit
