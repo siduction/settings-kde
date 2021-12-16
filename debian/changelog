@@ -1,8 +1,8 @@
-wintersky-kde-settings (2021.2.99-8) UNRELEASED; urgency=medium
+wintersky-kde-settings (2021.2.99-8) unstable; urgency=medium
 
   * package changes by hendrikL
 
- -- Torsten Wohlfarth <towo@siduction.org>  Wed, 15 Dec 2021 16:51:39 +0100
+ -- Torsten Wohlfarth <towo@siduction.org>  Wed, 15 Dec 2021 16:52:54 +0100
 
 wintersky-kde-settings (2021.2.99-7) unstable; urgency=medium
 

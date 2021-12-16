@@ -194,7 +194,6 @@ DialogWidth=720
 PreloadWeight=42
 
 [Containments][29][Wallpaper][org.kde.image][General]
-FillMode=1
 Image=file:///usr/share/wallpapers/wintersky.svg
 
 [Containments][31]
