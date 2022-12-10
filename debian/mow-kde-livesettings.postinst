@@ -8,15 +8,15 @@ case "$1" in
     ## sddm.conf ##
     rm -f /etc/sddm.conf
     ## sddm.conf.d ##
-    cp -af /usr/share/wintersky-kde-settings/etc/sddm.conf.d /etc
+    cp -af /usr/share/mow-kde-settings/etc/sddm.conf.d /etc
     ## remove localtime ##
     # rm -f /etc/localtime
     ## link /etc/localtime ##
     # ln -s /usr/share/zoneinfo/$(timedatectl | awk '/Time/{printf $3}') /etc/localtime
     ## NetworkManager ##
-    cp -af /usr/share/wintersky-kde-settings/etc/NetworkManager           /etc
+    cp -af /usr/share/mow-kde-settings/etc/NetworkManager           /etc
     ## iwd ##
-    cp -af /usr/share/wintersky-kde-settings/etc/iwd                      /etc
+    cp -af /usr/share/mow-kde-settings/etc/iwd                      /etc
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

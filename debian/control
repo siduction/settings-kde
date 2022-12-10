@@ -1,4 +1,4 @@
-Source: wintersky-kde-settings
+Source: mow-kde-settings
 Section: misc
 Priority: optional
 Maintainer: Torsten Wohlfarth <towo@siduction.org>,
@@ -12,14 +12,14 @@ Vcs-Browser: https://git.siduction.org/extra/settings-kde
 Vcs-Git: https://git.siduction.org/extra/settings-kde.git
 Homepage: https://git.siduction.org/extra/settings-kde
 
-Package: wintersky-kde-settings
+Package: mow-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
-         wintersky-kde-artwork,
-         wintersky-sddm-settings
-	 | wintersky-lightdm-gtk-settings
-	 | wintersky-gdm3-settings,
-         wintersky-common-settings
+         mow-kde-artwork,
+         mow-sddm-settings
+	 | mow-lightdm-gtk-settings
+	 | mow-gdm3-settings,
+         mow-common-settings
 Recommends: xdg-browser-launcher
 Description: KDE settings (installed mode)
  Provides default settings for appearance and applications of the K Desktop
@@ -29,18 +29,18 @@ Description: KDE settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: wintersky-kde-livesettings
+Package: mow-kde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
          siduction-icons,
-         wintersky-kde-artwork,
-         wintersky-kde-settings,
-         wintersky-common-livesettings,
-         wintersky-sddm-livesettings
-         | wintersky-ligthdm-gtk-livesettings
-         | wintersky-gdm3-livesettings
+         mow-kde-artwork,
+         mow-kde-settings,
+         mow-common-livesettings,
+         mow-sddm-livesettings
+         | mow-ligthdm-gtk-livesettings
+         | mow-gdm3-livesettings
 Description: KDE settings (live mode)
  Provides default settings for appearance and applications of the K Desktop
  Environment in live mode.

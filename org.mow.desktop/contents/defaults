@@ -8,16 +8,16 @@ ColorScheme=BreezeDark
 Theme=breeze-dark
 
 [plasmarc][Theme]
-name=org.wintersky.desktop
+name=org.mow.desktop
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.wintersky.desktop
+LayoutName=org.mow.desktop
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.wintersky.desktop
+LayoutName=org.mow.desktop
 
 [kwinrc][LockScreen]
-LayoutName=org.wintersky.desktop
+LayoutName=org.mow.desktop

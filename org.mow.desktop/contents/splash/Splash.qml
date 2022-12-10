@@ -21,7 +21,7 @@ import QtQuick 2.2
 
 Image {
     id: root
-    source: "/usr/share/wallpapers/wintersky.svg"
+    source: "/usr/share/wallpapers/mow.svg"
     fillMode:Image.PreserveAspectCrop
 
     property int stage
