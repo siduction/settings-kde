@@ -23,6 +23,9 @@ case "$1" in
         cp -af /usr/share/mow-kde-settings/etc/xdg              /etc
         ## settings ##
         dconf update
+        if [ -e /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml ]; then
+    	    sed -i 's/default>preferred.*/default>preferred:\/\/browser,org.kde.plasma-systemmonitor.desktop,org.kde.konsole.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.discover.desktop<\/default>/' /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
+        fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

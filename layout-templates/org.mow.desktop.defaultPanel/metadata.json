@@ -1,0 +1,71 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tux@siduction.org",
+                "Name": "siduction Developers"
+            },
+            {
+                "Email": "aseigo@kde.org",
+                "Name": "Aaron Seigo"
+            }
+        ],
+        "Category": "",
+        "Dependencies": [
+        ],
+        "EnabledByDefault": true,
+        "Id": "org.mow.desktop.defaultPanel",
+        "License": "LGPLv2+",
+        "Name": "Masters of War Default Panel",
+        "Name[bs]": "Masters of War Podrazumijevani panel",
+        "Name[ca@valencia]": "Masters of War Plafó per omissió",
+        "Name[ca]": "Masters of War Plafó per omissió",
+        "Name[cs]": "Masters of War Výchozí panel",
+        "Name[da]": "Masters of War Standardpanel",
+        "Name[de]": "Masters of War Standard-Kontrollleiste",
+        "Name[el]": "Masters of War Προκαθορισμένος πίνακας",
+        "Name[en_GB]": "Masters of War Default Panel",
+        "Name[es]": "Masters of War Panel por omisión",
+        "Name[et]": "Masters of War Vaikimisi paneel",
+        "Name[eu]": "Masters of War Panel lehenetsia",
+        "Name[fi]": "Masters of War Oletuspaneeli",
+        "Name[fr]": "Masters of War Tableau de bord par défaut",
+        "Name[gl]": "Masters of War Panel predeterminado",
+        "Name[hu]": "Masters of War Alapértelmezett panel",
+        "Name[id]": "Masters of War Panel Baku",
+        "Name[is]": "Masters of War Sjálfgefið spjald",
+        "Name[it]": "Masters of War Pannello predefinito",
+        "Name[ja]": "Masters of War 標準のパネル",
+        "Name[ko]": "Masters of War 기본 패널",
+        "Name[lt]": "Masters of War Numatytas skydelis",
+        "Name[nb]": "Masters of War Standardpanel",
+        "Name[nds]": "Masters of War Standardpaneel",
+        "Name[nl]": "Masters of War Standaard paneel",
+        "Name[nn]": "Masters of War Standardpanel",
+        "Name[pl]": "Masters of War Domyślny panel",
+        "Name[pt]": "Masters of War Painel Predefinido",
+        "Name[pt_BR]": "Masters of War Painel padrão",
+        "Name[ru]": "Masters of War Стандартная панель",
+        "Name[sk]": "Masters of War Štandardný panel",
+        "Name[sl]": "Masters of War Privzeti pult",
+        "Name[sr@ijekavian]": "Masters of War Подразумијевани панел",
+        "Name[sr@ijekavianlatin]": "Masters of War Podrazumijevani panel",
+        "Name[sr@latin]": "Masters of War Podrazumevani panel",
+        "Name[sr]": "Masters of War Подразумевани панел",
+        "Name[sv]": "Masters of War Standardpanel",
+        "Name[tr]": "Masters of War Öntanımlı Pano",
+        "Name[uk]": "Masters of War Типова панель",
+        "Name[x-test]": "xxMasters of War Default Panelxx",
+        "Name[zh_CN]": "Masters of War 默认面板",
+        "Name[zh_TW]": "Masters of War 預設面板",
+        "ServiceTypes": [
+            "Plasma/LayoutTemplate"
+        ],
+        "Version": "1.0",
+        "Website": "https://siduction.org/"
+    },
+    "X-Plasma-ContainmentCategories": [
+        "panel"
+    ],
+    "X-Plasma-Shell": "plasmashell"
+}

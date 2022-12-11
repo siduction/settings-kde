@@ -1,5 +1,5 @@
 [kdeglobals][KDE]
-widgetStyle=breeze
+widgetStyle=Breeze
 
 [kdeglobals][General]
 ColorScheme=BreezeDark
@@ -8,16 +8,25 @@ ColorScheme=BreezeDark
 Theme=breeze-dark
 
 [plasmarc][Theme]
-name=org.mow.desktop
+name=mow-dark
+
+[Wallpaper]
+Image=mow
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.mow.desktop
+LayoutName=org.kde.breeze.desktop
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.mow.desktop
+LayoutName=org.kde.breeze.desktop
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.breeze
 
 [kwinrc][LockScreen]
 LayoutName=org.mow.desktop
+
+[KSplash]
+Theme=org.mow
