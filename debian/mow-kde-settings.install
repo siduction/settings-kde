@@ -1,6 +1,5 @@
 *.js                          usr/share/mow-kde-settings
 etc                           usr/share/mow-kde-settings/
-usr                           usr/share/mow-kde-settings/
 org.mow.desktop               usr/share/plasma/look-and-feel
 layout-templates              usr/share/plasma/
 desktoptheme                  usr/share/plasma/
