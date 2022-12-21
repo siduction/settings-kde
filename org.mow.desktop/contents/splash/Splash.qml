@@ -31,25 +31,25 @@ Image {
             introAnimation.running = true
         }
     }
-    //Rectangle {
-        //id: topRect
-        //width: parent.width
-        //height: (root.height / 3) - bottomRect.height - 1
-        //y: root.height
-        //color: "#4C000000"
-        //Image {
-            //source: "images/siduction-logo.svgz"
-            //anchors.centerIn: parent
-            //sourceSize.height: 128
-            //sourceSize.width: 128
-        //}
-    //}
+    Rectangle {
+        id: topRect
+        width: parent.width
+        height: (root.height / 3) - bottomRect.height - 1
+        y: root.height
+        color: "#4C000000"
+        Image {
+            source: "images/siduction-logo.svgz"
+            anchors.centerIn: parent
+            sourceSize.height: 128
+            sourceSize.width: 128
+        }
+    }
     Rectangle {
         id: bottomRect
         width: parent.width
         y: -height
         height: 50
-        color: "transparent" /*"#4C000000"*/
+        color: "#4C000000"
 
         Rectangle {
             radius: 3
@@ -97,14 +97,15 @@ Image {
             easing.overshoot: 1.0
         }
     }
-
-    Image {
-        id: footerPic
-        anchors.bottom: parent.bottom
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.bottomMargin: 20
-        width: parent.width
-        source: "images/footer.svg"
-        fillMode: Image.PreserveAspectFit
-    }
+/*
+*    Image {
+*        id: footerPic
+*        anchors.bottom: parent.bottom
+*        anchors.horizontalCenter: parent.horizontalCenter
+*        anchors.bottomMargin: 20
++        width: parent.width
+*        source: "images/footer.svg"
+*        fillMode: Image.PreserveAspectFit
+*    }
+*/
 }
