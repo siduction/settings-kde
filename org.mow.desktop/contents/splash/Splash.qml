@@ -53,7 +53,7 @@ Image {
 
         Rectangle {
             radius: 3
-            color: "transparent" /*"#31363b"*/
+            color: "#31363b"
             anchors.centerIn: parent
             height: 8
             width: height*32
