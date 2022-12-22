@@ -20,11 +20,6 @@ if [ -r /etc/default/fll-locales ]; then
     . /etc/default/fll-locales
 fi
 
-if [ /usr/share/siduction/user-dirs.desktop ]; then
-    cp /usr/share/siduction/user-dirs.desktop /home/${FLL_LIVE_USER}/.config/autostart/
-    chown ${FLL_LIVE_USER}:${FLL_LIVE_USER} /home/${FLL_LIVE_USER}/.config/autostart/
-fi
-
 FLL_LIVE_USER_HOME=$(getent passwd ${FLL_LIVE_USER} | cut -d \: -f 6)
 
 

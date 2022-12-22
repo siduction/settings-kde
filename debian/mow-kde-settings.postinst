@@ -18,7 +18,7 @@ case "$1" in
         cp -af /usr/share/mow-kde-settings/etc/skel/config      /etc/skel/.config
         cp -af /usr/share/mow-kde-settings/etc/skel/local       /etc/skel/.local
         ## usr ##
-        cp -af /usr/share/mow-kde-settings/usr/*                /usr
+        #cp -af /usr/share/mow-kde-settings/usr/*                /usr
         ## xdg ##
         cp -af /usr/share/mow-kde-settings/etc/xdg              /etc
         ## settings ##

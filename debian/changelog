@@ -1,3 +1,9 @@
+mow-kde-settings (2022.1.0-4) unstable; urgency=medium
+
+  * remove user-dirs test
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 11 Dec 2022 23:13:33 +0100
+
 mow-kde-settings (2022.1.0-3) unstable; urgency=medium
 
   * try to fix user-dirs
