@@ -1,3 +1,9 @@
+mow-kde-settings (2022.1.0-5) unstable; urgency=medium
+
+  * new previews
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 22 Dec 2022 12:56:35 +0100
+
 mow-kde-settings (2022.1.0-4) unstable; urgency=medium
 
   * remove user-dirs test
