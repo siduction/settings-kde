@@ -1,3 +1,9 @@
+mow-kde-settings (2022.1.0-6) unstable; urgency=medium
+
+  * change default launchers
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 25 Dec 2022 19:50:30 +0100
+
 mow-kde-settings (2022.1.0-5) unstable; urgency=medium
 
   * new previews

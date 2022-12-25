@@ -26,6 +26,9 @@ case "$1" in
         if [ -e /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml ]; then
     	    sed -i 's/default>preferred.*/default>preferred:\/\/browser,org.kde.plasma-systemmonitor.desktop,org.kde.konsole.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.discover.desktop<\/default>/' /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml
         fi
+        if [ -e /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml ]; then
+    	    sed -i 's/default>applic.*/default>applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:firefox.desktop<\/default>/' /usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml
+        fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
