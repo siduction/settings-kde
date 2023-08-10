@@ -1,4 +1,4 @@
-Source: mow-kde-settings
+Source: giants-kde-settings
 Section: misc
 Priority: optional
 Maintainer: Torsten Wohlfarth <towo@siduction.org>,
@@ -12,14 +12,14 @@ Vcs-Browser: https://git.siduction.org/extra/settings-kde
 Vcs-Git: https://git.siduction.org/extra/settings-kde.git
 Homepage: https://git.siduction.org/extra/settings-kde
 
-Package: mow-kde-settings
+Package: giants-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
-         mow-kde-artwork,
-         mow-sddm-settings
-	 | mow-lightdm-gtk-settings
-	 | mow-gdm3-settings,
-         mow-common-settings
+         giants-kde-artwork,
+         giants-sddm-settings
+	 | giants-lightdm-gtk-settings
+	 | giants-gdm3-settings,
+         giants-common-settings
 Recommends: xdg-browser-launcher
 Description: KDE settings (installed mode)
  Provides default settings for appearance and applications of the K Desktop
@@ -29,18 +29,18 @@ Description: KDE settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: mow-kde-livesettings
+Package: giants-kde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
          siduction-icons,
-         mow-kde-artwork,
-         mow-kde-settings,
-         mow-common-livesettings,
-         mow-sddm-livesettings
-         | mow-ligthdm-gtk-livesettings
-         | mow-gdm3-livesettings
+         giants-kde-artwork,
+         giants-kde-settings,
+         giants-common-livesettings,
+         giants-sddm-livesettings
+         | giants-ligthdm-gtk-livesettings
+         | giants-gdm3-livesettings
 Description: KDE settings (live mode)
  Provides default settings for appearance and applications of the K Desktop
  Environment in live mode.

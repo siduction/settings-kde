@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=Masters of War
-Description=Siduction Masters of War Theme
+Name=Standing on the Shoulders of Giants
+Description=Siduction Giants Theme
 Author=Hendrik Lehmbruch
 Copyright=2015-2021, Hendrik Lehmbruch
 License=CC-BY-SA
@@ -12,5 +12,5 @@ MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
 Email=hendrikl@siduction.org
-Theme-Id=mow
+Theme-Id=giants
 Theme-API=2.0

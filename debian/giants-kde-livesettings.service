@@ -1,0 +1,11 @@
+[Unit]
+Description=KDE cheatcodes in live media
+ConditionPathExists=/usr/share/giants-kde-settings/
+After=giants-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/giants-kde-settings/kde-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

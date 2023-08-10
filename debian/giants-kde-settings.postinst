@@ -6,21 +6,21 @@ set -e
 case "$1" in
     configure)
         ## dconf ##
-        cp -af /usr/share/mow-kde-settings/etc/dconf          /etc
+        cp -af /usr/share/giants-kde-settings/etc/dconf          /etc
         ## gtk-2.0 ##
-        cp -af /usr/share/mow-kde-settings/etc/gtk-2.0          /etc
+        cp -af /usr/share/giants-kde-settings/etc/gtk-2.0          /etc
         ## kde ##
-        cp -af /usr/share/mow-kde-settings/etc/kde-user-profile /etc
+        cp -af /usr/share/giants-kde-settings/etc/kde-user-profile /etc
         ## policyḱit-1 ##
-        cp -af /usr/share/mow-kde-settings/etc/polkit-1         /etc
+        cp -af /usr/share/giants-kde-settings/etc/polkit-1         /etc
         ## skel ##
-        cp -af /usr/share/mow-kde-settings/etc/skel/dmrc        /etc/skel/.dmrc
-        cp -af /usr/share/mow-kde-settings/etc/skel/config      /etc/skel/.config
-        cp -af /usr/share/mow-kde-settings/etc/skel/local       /etc/skel/.local
+        cp -af /usr/share/giants-kde-settings/etc/skel/dmrc        /etc/skel/.dmrc
+        cp -af /usr/share/giants-kde-settings/etc/skel/config      /etc/skel/.config
+        cp -af /usr/share/giants-kde-settings/etc/skel/local       /etc/skel/.local
         ## usr ##
-        #cp -af /usr/share/mow-kde-settings/usr/*                /usr
+        #cp -af /usr/share/giants-kde-settings/usr/*                /usr
         ## xdg ##
-        cp -af /usr/share/mow-kde-settings/etc/xdg              /etc
+        cp -af /usr/share/giants-kde-settings/etc/xdg              /etc
         ## settings ##
         dconf update
         if [ -e /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/config/main.xml ]; then

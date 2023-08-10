@@ -1,0 +1,71 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tux@siduction.org",
+                "Name": "siduction Developers"
+            },
+            {
+                "Email": "aseigo@kde.org",
+                "Name": "Aaron Seigo"
+            }
+        ],
+        "Category": "",
+        "Dependencies": [
+        ],
+        "EnabledByDefault": true,
+        "Id": "org.giants.desktop.defaultPanel",
+        "License": "LGPLv2+",
+        "Name": "Standing on the Shoulders of Giants Default Panel",
+        "Name[bs]": "Standing on the Shoulders of Giants Podrazumijevani panel",
+        "Name[ca@valencia]": "Standing on the Shoulders of Giants Plafó per omissió",
+        "Name[ca]": "Standing on the Shoulders of Giants Plafó per omissió",
+        "Name[cs]": "Standing on the Shoulders of Giants Výchozí panel",
+        "Name[da]": "Standing on the Shoulders of Giants Standardpanel",
+        "Name[de]": "Standing on the Shoulders of Giants Standard-Kontrollleiste",
+        "Name[el]": "Standing on the Shoulders of Giants Προκαθορισμένος πίνακας",
+        "Name[en_GB]": "Standing on the Shoulders of Giants Default Panel",
+        "Name[es]": "Standing on the Shoulders of Giants Panel por omisión",
+        "Name[et]": "Standing on the Shoulders of Giants Vaikimisi paneel",
+        "Name[eu]": "Standing on the Shoulders of Giants Panel lehenetsia",
+        "Name[fi]": "Standing on the Shoulders of Giants Oletuspaneeli",
+        "Name[fr]": "Standing on the Shoulders of Giants Tableau de bord par défaut",
+        "Name[gl]": "Standing on the Shoulders of Giants Panel predeterminado",
+        "Name[hu]": "Standing on the Shoulders of Giants Alapértelmezett panel",
+        "Name[id]": "Standing on the Shoulders of Giants Panel Baku",
+        "Name[is]": "Standing on the Shoulders of Giants Sjálfgefið spjald",
+        "Name[it]": "Standing on the Shoulders of Giants Pannello predefinito",
+        "Name[ja]": "Standing on the Shoulders of Giants 標準のパネル",
+        "Name[ko]": "Standing on the Shoulders of Giants 기본 패널",
+        "Name[lt]": "Standing on the Shoulders of Giants Numatytas skydelis",
+        "Name[nb]": "Standing on the Shoulders of Giants Standardpanel",
+        "Name[nds]": "Standing on the Shoulders of Giants Standardpaneel",
+        "Name[nl]": "Standing on the Shoulders of Giants Standaard paneel",
+        "Name[nn]": "Standing on the Shoulders of Giants Standardpanel",
+        "Name[pl]": "Standing on the Shoulders of Giants Domyślny panel",
+        "Name[pt]": "Standing on the Shoulders of Giants Painel Predefinido",
+        "Name[pt_BR]": "Standing on the Shoulders of Giants Painel padrão",
+        "Name[ru]": "Standing on the Shoulders of Giants Стандартная панель",
+        "Name[sk]": "Standing on the Shoulders of Giants Štandardný panel",
+        "Name[sl]": "Standing on the Shoulders of Giants Privzeti pult",
+        "Name[sr@ijekavian]": "Standing on the Shoulders of Giants Подразумијевани панел",
+        "Name[sr@ijekavianlatin]": "Standing on the Shoulders of Giants Podrazumijevani panel",
+        "Name[sr@latin]": "Standing on the Shoulders of Giants Podrazumevani panel",
+        "Name[sr]": "Standing on the Shoulders of Giants Подразумевани панел",
+        "Name[sv]": "Standing on the Shoulders of Giants Standardpanel",
+        "Name[tr]": "Standing on the Shoulders of Giants Öntanımlı Pano",
+        "Name[uk]": "Standing on the Shoulders of Giants Типова панель",
+        "Name[x-test]": "xxStanding on the Shoulders of Giants Default Panelxx",
+        "Name[zh_CN]": "Standing on the Shoulders of Giants 默认面板",
+        "Name[zh_TW]": "Standing on the Shoulders of Giants 預設面板",
+        "ServiceTypes": [
+            "Plasma/LayoutTemplate"
+        ],
+        "Version": "1.0",
+        "Website": "https://siduction.org/"
+    },
+    "X-Plasma-ContainmentCategories": [
+        "panel"
+    ],
+    "X-Plasma-Shell": "plasmashell"
+}
