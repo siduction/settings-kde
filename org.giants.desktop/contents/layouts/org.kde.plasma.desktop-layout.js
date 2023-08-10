@@ -1,5 +1,5 @@
 
-loadTemplate("org.mow.desktop.defaultPanel")
+loadTemplate("org.giants.desktop.defaultPanel")
 
 var desktopsArray = desktopsForActivity(currentActivity());
 for( var j = 0; j < desktopsArray.length; j++) {
