@@ -1,3 +1,15 @@
+giants-kde-settings (2023.1-4) unstable; urgency=medium
+
+  * fix preview
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 13 Aug 2023 17:46:02 +0200
+
+giants-kde-settings (2023.1-3) unstable; urgency=medium
+
+  * fix previews
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Thu, 10 Aug 2023 22:02:18 +0200
+
 giants-kde-settings (2023.1-2) unstable; urgency=medium
 
   * fix typo
