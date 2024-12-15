@@ -6,4 +6,4 @@ Autolock=false
 LockGrace=35
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/shine-on/
+Image=/usr/share/wallpapers/shine_on/

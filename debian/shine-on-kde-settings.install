@@ -1,6 +1,6 @@
 *.js                          usr/share/shine-on-kde-settings
 etc                           usr/share/shine-on-kde-settings/
-org.shine-on.desktop               usr/share/plasma/look-and-feel
+org.shine-on.desktop          usr/share/plasma/look-and-feel
 layout-templates              usr/share/plasma/
 desktoptheme                  usr/share/plasma/
 os-kinfo.png                  usr/share/siduction/
