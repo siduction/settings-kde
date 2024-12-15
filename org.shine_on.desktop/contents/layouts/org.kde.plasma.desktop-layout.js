@@ -1,5 +1,5 @@
 
-loadTemplate("org.giants.desktop.defaultPanel")
+loadTemplate("org.shine_on.desktop.defaultPanel")
 
 var desktopsArray = desktopsForActivity(currentActivity());
 for( var j = 0; j < desktopsArray.length; j++) {

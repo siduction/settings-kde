@@ -1,4 +1,4 @@
-Source: giants-kde-settings
+Source: shine_on-kde-settings
 Section: misc
 Priority: optional
 Maintainer: Torsten Wohlfarth <towo@siduction.org>,
@@ -12,14 +12,14 @@ Vcs-Browser: https://git.siduction.org/extra/settings-kde
 Vcs-Git: https://git.siduction.org/extra/settings-kde.git
 Homepage: https://git.siduction.org/extra/settings-kde
 
-Package: giants-kde-settings
+Package: shine_on-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
-         giants-kde-artwork,
-         giants-sddm-settings
-	 | giants-lightdm-gtk-settings
-	 | giants-gdm3-settings,
-         giants-common-settings
+         shine_on-kde-artwork,
+         shine_on-sddm-settings
+	 | shine_on-lightdm-gtk-settings
+	 | shine_on-gdm3-settings,
+         shine_on-common-settings
 Recommends: xdg-browser-launcher
 Description: KDE settings (installed mode)
  Provides default settings for appearance and applications of the K Desktop
@@ -29,18 +29,18 @@ Description: KDE settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: giants-kde-livesettings
+Package: shine_on-kde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
          siduction-icons,
-         giants-kde-artwork,
-         giants-kde-settings,
-         giants-common-livesettings,
-         giants-sddm-livesettings
-         | giants-ligthdm-gtk-livesettings
-         | giants-gdm3-livesettings
+         shine_on-kde-artwork,
+         shine_on-kde-settings,
+         shine_on-common-livesettings,
+         shine_on-sddm-livesettings
+         | shine_on-ligthdm-gtk-livesettings
+         | shine_on-gdm3-livesettings
 Description: KDE settings (live mode)
  Provides default settings for appearance and applications of the K Desktop
  Environment in live mode.

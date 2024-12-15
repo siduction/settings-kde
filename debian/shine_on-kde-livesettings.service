@@ -1,0 +1,11 @@
+[Unit]
+Description=KDE cheatcodes in live media
+ConditionPathExists=/usr/share/shine_on-kde-settings/
+After=shine_on-common-livesettings.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/shine_on-kde-settings/kde-cheatcodes start
+
+[Install]
+WantedBy=graphical.target

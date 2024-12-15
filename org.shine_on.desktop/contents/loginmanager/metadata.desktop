@@ -1,8 +1,8 @@
 [SddmGreeterTheme]
-Name=Standing on the Shoulders of Giants
-Description=Siduction Giants Theme
+Name=Shine on
+Description=Siduction Shine on Theme
 Author=Hendrik Lehmbruch
-Copyright=2015-2021, Hendrik Lehmbruch
+Copyright=2015-2024, Hendrik Lehmbruch
 License=CC-BY-SA
 Type=sddm-theme
 Version=0.1
@@ -12,5 +12,5 @@ MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
 Email=hendrikl@siduction.org
-Theme-Id=giants
+Theme-Id=shine_on
 Theme-API=2.0
