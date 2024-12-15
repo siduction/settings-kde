@@ -12,5 +12,5 @@ MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
 Email=hendrikl@siduction.org
-Theme-Id=shine_on
+Theme-Id=shine-on
 Theme-API=2.0

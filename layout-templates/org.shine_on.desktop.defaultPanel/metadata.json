@@ -14,7 +14,7 @@
         "Dependencies": [
         ],
         "EnabledByDefault": true,
-        "Id": "org.shine_on.desktop.defaultPanel",
+        "Id": "org.shine-on.desktop.defaultPanel",
         "License": "LGPLv2+",
         "Name": "Shine on Default Panel",
         "Name[bs]": "Shine on Podrazumijevani panel",

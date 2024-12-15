@@ -8,10 +8,10 @@ ColorScheme=BreezeDark
 Theme=breeze-dark
 
 [plasmarc][Theme]
-name=shine_on-dark
+name=shine-on-dark
 
 [Wallpaper]
-Image=shine_on
+Image=shine-on
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
@@ -26,8 +26,8 @@ LayoutName=org.kde.breeze.desktop
 library=org.kde.breeze
 
 [kwinrc][LockScreen]
-LayoutName=org.shine_on.desktop
+LayoutName=org.shine-on.desktop
 
 [KSplash]
-Theme=org.shine_on
+Theme=org.shine-on
 
