@@ -21,7 +21,7 @@ import QtQuick 2.2
 
 Image {
     id: root
-    source: "/usr/share/wallpapers/sine-on.png"
+    source: "/usr/share/wallpapers/shine-on.png"
     fillMode:Image.PreserveAspectCrop
 
     property int stage
