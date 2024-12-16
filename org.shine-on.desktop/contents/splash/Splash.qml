@@ -1,99 +1,111 @@
 /*
-    SPDX-FileCopyrightText: 2014 Marco Martin <mart@kde.org>
+ *   Copyright 2014 Marco Martin <mart@kde.org>
+ *
+ *   This program is free software; you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License version 2,
+ *   or (at your option) any later version, as published by the Free
+ *   Software Foundation
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details
+ *
+ *   You should have received a copy of the GNU General Public
+ *   License along with this program; if not, write to the
+ *   Free Software Foundation, Inc.,
+ *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
 
-    SPDX-License-Identifier: GPL-2.0-or-later
-*/
+import QtQuick 2.2
 
-import QtQuick
-import org.kde.kirigami 2 as Kirigami
-
-Rectangle {
+Image {
     id: root
-    color: "black"
+    source: "/usr/share/wallpapers/sine-on.png"
+    fillMode:Image.PreserveAspectCrop
 
     property int stage
 
     onStageChanged: {
-        if (stage == 2) {
-            introAnimation.running = true;
-        } else if (stage == 5) {
-            introAnimation.target = busyIndicator;
-            introAnimation.from = 1;
-            introAnimation.to = 0;
-            introAnimation.running = true;
+        if (stage == 1) {
+            introAnimation.running = true
         }
     }
-
-    Item {
-        id: content
-        anchors.fill: parent
-        opacity: 0
-
+    Rectangle {
+        id: topRect
+        width: parent.width
+        height: (root.height / 3) - bottomRect.height - 1
+        y: root.height
+        color: "#4C000000"
         Image {
-            id: logo
-            //match SDDM/lockscreen avatar positioning
-            readonly property real size: Kirigami.Units.gridUnit * 8
-
-            anchors.centerIn: parent
-
-            asynchronous: true
             source: "images/siduction-logo.svgz"
-
-            sourceSize.width: size
-            sourceSize.height: size
+            anchors.centerIn: parent
+            sourceSize.height: 128
+            sourceSize.width: 128
         }
+    }
+    Rectangle {
+        id: bottomRect
+        width: parent.width
+        y: -height
+        height: 50
+        color: "#4C000000"
 
-        // TODO: port to PlasmaComponents3.BusyIndicator
-        Image {
-            id: busyIndicator
-            //in the middle of the remaining space
-            y: parent.height - (parent.height - logo.y) / 2 - height/2
-            anchors.horizontalCenter: parent.horizontalCenter
-            asynchronous: true
-            source: "images/busywidget.svgz"
-            sourceSize.height: Kirigami.Units.gridUnit * 2
-            sourceSize.width: Kirigami.Units.gridUnit * 2
-            RotationAnimator on rotation {
-                id: rotationAnimator
-                from: 0
-                to: 360
-                // Not using a standard duration value because we don't want the
-                // animation to spin faster or slower based on the user's animation
-                // scaling preferences; it doesn't make sense in this context
-                duration: 2000
-                loops: Animation.Infinite
-                // Don't want it to animate at all if the user has disabled animations
-                running: Kirigami.Units.longDuration > 1
-            }
-        }
-        Row {
-            spacing: Kirigami.Units.largeSpacing
-            anchors {
-                bottom: parent.bottom
-                right: parent.right
-                margins: Kirigami.Units.gridUnit
-            }
-            Text {
-                color: "#eff0f1"
-                anchors.verticalCenter: parent.verticalCenter
-                text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "This is the first text the user sees while starting in the splash screen, should be translated as something short, is a form that can be seen on a product. Plasma is the project name so shouldn't be translated.", "siduction powered by Plasma made by KDE")
-            }
-            Image {
-                asynchronous: true
-                source: "images/kde.svgz"
-                sourceSize.height: Kirigami.Units.gridUnit * 2
-                sourceSize.width: Kirigami.Units.gridUnit * 2
+        Rectangle {
+            radius: 3
+            color: "#31363b"
+            anchors.centerIn: parent
+            height: 8
+            width: height*32
+            Rectangle {
+                radius: 3
+                anchors {
+                    left: parent.left
+                    top: parent.top
+                    bottom: parent.bottom
+                }
+                width: (parent.width / 6) * (stage - 1)
+                color: "#ff5500"
+                Behavior on width { 
+                    PropertyAnimation {
+                        duration: 250
+                        easing.type: Easing.InOutQuad
+                    }
+                }
             }
         }
     }
 
-    OpacityAnimator {
+    ParallelAnimation {
         id: introAnimation
         running: false
-        target: content
-        from: 0
-        to: 1
-        duration: Kirigami.Units.veryLongDuration * 2
-        easing.type: Easing.InOutQuad
+
+        YAnimator {
+            target: topRect
+            from: root.height
+            to: root.height / 3
+            duration: 1000
+            easing.type: Easing.InOutBack
+            easing.overshoot: 1.0
+        }
+        YAnimator {
+            target: bottomRect
+            from: -bottomRect.height
+            to: 2 * (root.height / 3) - bottomRect.height
+            duration: 1000
+            easing.type: Easing.InOutBack
+            easing.overshoot: 1.0
+        }
     }
+/*
+*    Image {
+*        id: footerPic
+*        anchors.bottom: parent.bottom
+*        anchors.horizontalCenter: parent.horizontalCenter
+*        anchors.bottomMargin: 20
++        width: parent.width
+*        source: "images/footer.svg"
+*        fillMode: Image.PreserveAspectFit
+*    }
+*/
 }

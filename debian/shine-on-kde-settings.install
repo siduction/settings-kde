@@ -7,3 +7,4 @@ layout-templates              usr/share/plasma/
 desktoptheme                  usr/share/plasma/
 os-kinfo.png                  usr/share/siduction/
 kcm-about-distrorc            etc/xdg/
+icons                         usr/share/
