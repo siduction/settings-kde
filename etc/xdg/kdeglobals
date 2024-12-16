@@ -11,5 +11,5 @@ toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
 [KDE]
-LookAndFeelPackage=org.shine_on.desktop
+LookAndFeelPackage=org.shine-on.desktop
 SingleClick=false

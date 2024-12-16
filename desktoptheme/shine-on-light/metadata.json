@@ -64,7 +64,7 @@
         "Description[x-test]": "xxShine on Light by the KDE VDGxx",
         "Description[zh_CN]": "Shine on 微风浅色主题，由 KDE VDG (视觉设计团队) 设计制作",
         "EnabledByDefault": true,
-        "Id": "shine_on-light",
+        "Id": "shine-on-light",
         "License": "LGPL",
         "Name": "Shine on Light",
         "Name[az]": "Shine on - İşıqlı",
