@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tux@siduction.org",
+                "Name": "KDE Visual Design Group"
+            }
+        ],
+        "Category": "",
+        "Description": "Breeze dark by the KDE VDG",
+        "Description[de]": "Breeze Dunkel von der KDE VDG",
+
+        "Id": "org.shine-ondark.desktop",
+        "License": "GPLv2+",
+        "Name": "Shine on ... dark",
+        "Name[de]": "Shine on ... Dunkel",
+        "Website": "https://www.siduction.org"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+    "X-Plasma-APIVersion": "2"
+}

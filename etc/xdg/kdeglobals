@@ -1,6 +1,6 @@
 [General]
 BrowserApplication=firefox
-ColorScheme=Breeze
+ColorScheme=BreezeDark
 Name=Breeze
 fixed=Hack,9,-1,0,50,0,0,0,0,0
 font=Noto Sans,10,-1,5,50,0,0,0,0,0
@@ -11,5 +11,5 @@ toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
 [KDE]
-LookAndFeelPackage=org.shine-on.desktop
+LookAndFeelPackage=org.shine-ondark.desktop
 SingleClick=false

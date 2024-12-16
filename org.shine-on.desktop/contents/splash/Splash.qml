@@ -39,7 +39,7 @@ Rectangle {
             asynchronous: true
             source: "images/siduction-logo.svgz"
 
-            sourceSize.width: size * 3.43
+            sourceSize.width: size
             sourceSize.height: size
         }
 

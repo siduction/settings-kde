@@ -2,13 +2,13 @@
 widgetStyle=Breeze
 
 [kdeglobals][General]
-ColorScheme=BreezeLight
+ColorScheme=BreezeDark
 
 [kdeglobals][Icons]
 Theme=shine-on-dark
 
 [plasmarc][Theme]
-name=shine-on
+name=shine-on-dark
 
 [Wallpaper]
 Image=shine-on
