@@ -5,13 +5,13 @@ widgetStyle=Breeze
 ColorScheme=BreezeLight
 
 [kdeglobals][Icons]
-Theme=shine-on-dark
+Theme=shine-on
 
 [plasmarc][Theme]
 name=shine-on
 
 [Wallpaper]
-Image=shine-on
+Image=shine-on-xmas
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
