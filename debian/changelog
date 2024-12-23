@@ -1,3 +1,9 @@
+shine-on-kde-settings (2024.1-5) unstable; urgency=medium
+
+  * set plasmax11 as standard, calamares under x11 does not fit the choosen keyboard layout" -a
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 23 Dec 2024 14:00:07 +0100
+
 shine-on-kde-settings (2024.1-4) unstable; urgency=medium
 
   * set xmas wallpaper as default
