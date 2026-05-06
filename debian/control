@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Torsten Wohlfarth <towo@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ferdinand Thommes <devil@siduction.org>,
-           Ovidiu Angelescu <convbsd@siduction.net>
            Hendrik Lehmbruch <hendrikl@siduction.org>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.1.4
