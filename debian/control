@@ -1,7 +1,7 @@
 Source: big-crime-kde-settings
 Section: misc
 Priority: optional
-Maintainer: Torsten Wohlfarth <towo@siduction.org>,
+Maintainer: Torsten Wohlfarth <towo@siduction.org>
 Uploaders: Torsten Wohlfarth <towo@siduction.org>,
            Ferdinand Thommes <devil@siduction.org>,
            Ovidiu Angelescu <convbsd@siduction.net>
