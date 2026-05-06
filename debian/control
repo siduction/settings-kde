@@ -1,4 +1,4 @@
-Source: shine-on-kde-settings
+Source: big-crime-kde-settings
 Section: misc
 Priority: optional
 Maintainer: Torsten Wohlfarth <towo@siduction.org>,
@@ -12,14 +12,14 @@ Vcs-Browser: https://git.siduction.org/extra/settings-kde
 Vcs-Git: https://git.siduction.org/extra/settings-kde.git
 Homepage: https://git.siduction.org/extra/settings-kde
 
-Package: shine-on-kde-settings
+Package: big-crime-kde-settings
 Architecture: all
 Depends: ${misc:Depends},
-         shine-on-kde-artwork,
-         shine-on-sddm-settings
-	 | shine-on-lightdm-gtk-settings
-	 | shine-on-gdm3-settings,
-         shine-on-common-settings
+         big-crime-kde-artwork,
+         big-crime-sddm-settings
+	 | big-crime-lightdm-gtk-settings
+	 | big-crime-gdm3-settings,
+         big-crime-common-settings
 Recommends: xdg-browser-launcher
 Description: KDE settings (installed mode)
  Provides default settings for appearance and applications of the K Desktop
@@ -29,18 +29,18 @@ Description: KDE settings (installed mode)
  configurable by the local user and don't override already existing user
  profiles.
 
-Package: shine-on-kde-livesettings
+Package: big-crime-kde-livesettings
 Architecture: all
 Depends: ${misc:Depends},
          kwin-x11 | kwin-wayland,
          plasma-workspace,
          siduction-icons,
-         shine-on-kde-artwork,
-         shine-on-kde-settings,
-         shine-on-common-livesettings,
-         shine-on-sddm-livesettings
-         | shine-on-ligthdm-gtk-livesettings
-         | shine-on-gdm3-livesettings
+         big-crime-kde-artwork,
+         big-crime-kde-settings,
+         big-crime-common-livesettings,
+         big-crime-sddm-livesettings
+         | big-crime-ligthdm-gtk-livesettings
+         | big-crime-gdm3-livesettings
 Description: KDE settings (live mode)
  Provides default settings for appearance and applications of the K Desktop
  Environment in live mode.

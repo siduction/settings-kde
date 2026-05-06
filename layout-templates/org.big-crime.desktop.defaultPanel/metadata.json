@@ -1,0 +1,26 @@
+{
+    "KPackageStructure": "Plasma/LayoutTemplate",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tux@siduction.org",
+                "Name": "siduction Developers"
+            },
+            {
+                "Email": "aseigo@kde.org",
+                "Name": "Aaron Seigo"
+            }
+        ],
+        "Category": "",
+        "Description": "Default panel featuring application launcher, task manager and system tray",
+        "EnabledByDefault": true,
+        "Id": "org.big-crime.desktop.defaultPanel",
+        "License": "LGPLv2+",
+        "Name": "Big Crime Default Panel",
+        "Website": "https://siduction.org/"
+    },
+    "X-Plasma-ContainmentCategories": [
+        "panel"
+    ],
+    "X-Plasma-Shell": "plasmashell"
+}

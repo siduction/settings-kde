@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tux@siduction.org",
+                "Name": "KDE Visual Design Group"
+            }
+        ],
+        "Category": "",
+        "Description": "Breeze dark by the KDE VDG",
+        "Description[de]": "Breeze Dunkel von der KDE VDG",
+
+        "Id": "org.big-crimedark.desktop",
+        "License": "GPLv2+",
+        "Name": "Big Crime dark",
+        "Name[de]": "Big Crime Dunkel",
+        "Website": "https://www.siduction.org"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+    "X-Plasma-APIVersion": "2"
+}

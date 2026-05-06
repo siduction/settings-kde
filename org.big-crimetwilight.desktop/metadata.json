@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tux@siduction.org",
+                "Name": "KDE Visual Design Group"
+            }
+        ],
+        "Category": "",
+        "Description": "Breeze twilight by the KDE VDG",
+        "Description": "Breeze Dämmerung von der KDE VDG",
+        "Id": "org.big-crimetwilight.desktop",
+        "License": "GPLv2+",
+        "Name": "Big Crime twilight",
+        "Name[de]": "Big Crime Dämmerung",
+        "Website": "https://www.siduction.org"
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+    "X-Plasma-APIVersion": "2"
+}
