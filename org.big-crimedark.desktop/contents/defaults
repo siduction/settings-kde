@@ -29,5 +29,5 @@ library=org.kde.breeze
 LayoutName=org.big-crime.desktop
 
 [KSplash]
-Theme=org.big-crime
+Theme=org.big-crimedark
 
