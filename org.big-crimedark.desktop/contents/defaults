@@ -26,8 +26,8 @@ LayoutName=org.kde.breeze.desktop
 library=org.kde.breeze
 
 [kwinrc][LockScreen]
-LayoutName=org.big-crime.desktop
+LayoutName=org.big-crimedark.desktop
 
 [KSplash]
-Theme=org.big-crimedark
+Theme=org.big-crimedark.desktop
 
